@@ -62,7 +62,8 @@ export function generateRoundStats(
   matchId: string,
   roundNum: number,
   startTime: number
-): RoundStats {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+): any {
   const corners: ("red" | "blue")[] = ["red", "blue"];
 
   const predictions: Prediction[] = corners.map((corner) => ({
@@ -80,6 +81,7 @@ export function generateRoundStats(
     avg_impact_points_per_landed: randomFloat(0, 5),
     avg_impact_points_per_thrown: randomFloat(0, 3), 
     mock_start: startTime,
+    mock_end: startTime + 3 * 60 * 1000,
   }));
 
   const rounds_info: RoundInfo[] = [
@@ -88,6 +90,7 @@ export function generateRoundStats(
       round_num: roundNum,
       status: "active",
       mock_start: startTime,
+      mock_end: startTime + 3 * 60 * 1000,
     },
   ];
 
@@ -109,7 +112,7 @@ export function generateRoundStats(
     punch_landed_high_impact: randomInt(5, 50),
     punch_thrown_power: randomInt(20, 100), 
     mock_start: startTime,
-    
+    mock_end: startTime + 3 * 60 * 1000,
   }));
 
   const balance: Balance[] = corners.map((corner) => {
@@ -125,6 +128,7 @@ export function generateRoundStats(
       front_foot: front_foot / 100,
       neutral: neutral / 100,
       mock_start: startTime,
+      mock_end: startTime + 3 * 60 * 1000,
     };
   });
 
@@ -159,6 +163,7 @@ export function generateRoundStats(
       southpaw: southpaw / 100,
       squared: squared / 100,
       mock_start: startTime,
+      mock_end: startTime + 3 * 60 * 1000,
     };
   });
 
@@ -175,7 +180,8 @@ export function generateRoundStats(
       doubles_num_punches: randomInt(30, 100),
       triples_num_punches: randomInt(15, 75),
       quads_more_num_punches: randomInt(0, 40),
-      mock_start: startTime,
+      mock_start: startTime, 
+      mock_end: startTime + 3 * 60 * 1000,
     })
   );
 
@@ -191,6 +197,7 @@ export function generateRoundStats(
       power_commit_dist: generateDistribution(),
       impact_dist: generateDistribution(),
       mock_start: startTime,
+      mock_end: startTime + 3 * 60 * 1000,
     }))
   );
 
@@ -210,6 +217,7 @@ export function generateRoundStats(
           ),
           punch_sequence_impact_props: generateQualityProps(sequence.length),
           mock_start: startTime,
+          mock_end: startTime + 3 * 60 * 1000,
         };
       })
   );

@@ -57,6 +57,7 @@ export function createMatches(): CreateMatchRequest[] {
         started: false,
         started_at: null,
         mock_start: matchStartTime,
+        mock_end: matchStartTime + 5 * 60 * 1000 * 10,
         fightId: fightId,
       },
       round_stats: generateRoundStatsForMatch(fightId, matchStartTime),
@@ -166,4 +167,42 @@ export async function updateRoundStats(
     );
     throw error;
   }
+}
+
+export async function getCurrentRunningMatches(){ 
+  const currentTimestamp = Date.now();
+  const {data, error} = await supabase
+  .from("matches")
+  .select("*")
+  .lte("fight_info->mock_start", currentTimestamp)
+  .gte("fight_info->mock_end", currentTimestamp)
+  .order("fight_info->mock_start", { ascending: true }); 
+
+  if(error) throw error;
+  return data; 
+  
+}
+
+export async function getUpcomingMatches(){
+  const currentTimestamp = Date.now();
+  const {data, error} = await supabase
+  .from("matches")
+  .select("*")
+  .gt("fight_info->mock_start", currentTimestamp)
+  .order("fight_info->mock_start", { ascending: true }); 
+
+  if(error) throw error;
+  return data;
+}
+
+export async function getPastMatches(){
+  const currentTimestamp = Date.now();
+  const {data, error} = await supabase
+  .from("matches")
+  .select("*")
+  .lt("fight_info->mock_end", currentTimestamp)
+  .order("fight_info->mock_end", { ascending: false }); 
+
+  if(error) throw error;
+  return data;
 }

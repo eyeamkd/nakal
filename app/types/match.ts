@@ -18,7 +18,8 @@ export interface FightInfo {
   started: boolean;
   started_at: number | null;
   mock_start: number;
-  fightId: string;
+  fightId: string; 
+  mock_end: number;
 }
 
 export interface Match {
@@ -56,13 +57,16 @@ export interface Prediction {
   prediction: "win" | "lose" | "draw";
   avg_impact_points_per_landed: number;
   avg_impact_points_per_thrown: number;
+  mock_start: number;
+  mock_end: number;
 }
 
 export interface RoundInfo {
   match_id: string;
   round_num: number;
   status: "active" | "completed" | "upcoming";
-  mock_start: number;
+  mock_start: number; 
+  mock_end: number;
 }
 
 export interface StatsSummary {
@@ -81,7 +85,9 @@ export interface StatsSummary {
   punch_landed: number;
   punch_thrown: number;
   punch_landed_high_impact: number;
-  punch_thrown_power: number;
+  punch_thrown_power: number; 
+  mock_start: number;
+  mock_end: number;
 }
 
 export interface Balance {
@@ -91,6 +97,7 @@ export interface Balance {
   back_foot: number;
   front_foot: number;
   neutral: number;
+  
 }
 
 export interface Distance {
@@ -101,6 +108,7 @@ export interface Distance {
   inside: number;
   mid_range: number;
   outside: number;
+  
 }
 
 export interface Stance {
@@ -109,7 +117,9 @@ export interface Stance {
   corner: "red" | "blue";
   orthodox: number;
   southpaw: number;
-  squared: number;
+  squared: number; 
+  mock_start: number;
+  mock_end: number;
 }
 
 export interface PunchCombinationsSummary {
@@ -123,7 +133,9 @@ export interface PunchCombinationsSummary {
   singles_num_punches: number;
   doubles_num_punches: number;
   triples_num_punches: number;
-  quads_more_num_punches: number;
+  quads_more_num_punches: number; 
+  mock_start: number;
+  mock_end: number;
 }
 
 export interface Distribution {
@@ -143,7 +155,7 @@ export interface Punch {
   thrown: number;
   landed_quality_dist: Distribution;
   power_commit_dist: Distribution;
-  impact_dist: Distribution;
+  impact_dist: Distribution; 
 }
 
 export interface PunchCombination {
@@ -153,7 +165,9 @@ export interface PunchCombination {
   punch_sequence: string[];
   punch_sequence_quality_props: string[];
   punch_sequence_power_commit_props: string[];
-  punch_sequence_impact_props: string[];
+  punch_sequence_impact_props: string[]; 
+  mock_start: number;
+  mock_end: number;
 }
 
 export interface RoundStats {
@@ -165,10 +179,12 @@ export interface RoundStats {
   stance: Stance[];
   punch_combinations_summary: PunchCombinationsSummary[];
   punches: Punch[];
-  punch_combinations: PunchCombination[];
+  punch_combinations: PunchCombination[]; 
+  mock_start: number;
+  mock_end: number;
 }
 
 export interface MatchStats {
   fight_info: FightInfo;
-  round_stats: RoundStats[] | void[];
+  round_stats: RoundStats[] | void[]; 
 }
