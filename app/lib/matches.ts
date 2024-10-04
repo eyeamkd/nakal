@@ -1,4 +1,3 @@
-import fs from "fs";
 import { v4 as uuidv4 } from "uuid";
 import {
   CreateMatchRequest,
@@ -75,7 +74,7 @@ export async function insertMatches(matches: CreateMatchRequest[]) {
     .insert(matches)
     .select();
 
-  fs.writeFileSync("matches.json", JSON.stringify(data, null, 2));
+  //fs.writeFileSync("matches.json", JSON.stringify(data, null, 2));
 
   if (error) {
     throw new Error(error.message);
