@@ -9,9 +9,10 @@ import {
   generateMockFightSettings,
   generateMockFightInfo,
 } from "./mockDataGenerator";
-import { generateRoundStats } from "./statsGenerator";
-import { supabase } from "./supabase";
-
+import { generateRoundStats, generateRoundStatsForMatch } from "./statsGenerator";
+import { supabase } from "./supabase"; 
+import { v4 as uuidv4 } from 'uuid'; 
+import fs from 'fs';
 export async function getMatches(
   page: number = 1,
   per_page: number = 20
@@ -41,26 +42,46 @@ export async function getMatches(
   };
 }
 
-export async function createMatches(): Promise<Match[]> {
-  const newMatches: CreateMatchRequest[] = Array.from({ length: 10 }, () => ({
-    fight_settings: generateMockFightSettings(),
-    fight_info: {
-      ...generateMockFightInfo(),
-      started: false,
-      started_at: null,
-    },
-  }));
+export function createMatches(): CreateMatchRequest[] { 
+  const newMatches: CreateMatchRequest[] = [];
+  let matchStartTime = Date.now() + 120000; 
+  console.log("Initial Match Start Time", matchStartTime); 
 
+  for (let i = 0; i < 10; i++) {
+    const fightSettings = generateMockFightSettings();  
+    const fightId = uuidv4();
+    
+    newMatches.push({ 
+      fight_settings: fightSettings,
+      fight_info: {
+        ...generateMockFightInfo(),
+        started: false,
+        started_at: null,
+        mock_start: matchStartTime,
+        fightId: fightId,
+      },
+      round_stats: generateRoundStatsForMatch(fightId, matchStartTime),
+    });
+    // 10 rounds of 5 minutes each = 50 minutes
+    matchStartTime += (5 * 60 * 1000 * 10);
+  }
+
+  return newMatches;
+} 
+
+export async function insertMatches(matches: CreateMatchRequest[]) {
   const { data, error } = await supabase
     .from("matches")
-    .insert(newMatches)
-    .select();
+    .insert(matches)
+    .select(); 
+
+  fs.writeFileSync("matches.json", JSON.stringify(data, null, 2));
 
   if (error) {
     throw new Error(error.message);
   }
 
-  return data as Match[];
+  return data;
 }
 
 export async function getMatch(id: number): Promise<Match | null> {
@@ -140,77 +161,53 @@ export async function createMatchWithRoundStats(
 }
 
 export async function getMatchStats(
-  matchId: number,
+  matchId: string,
   corner: string
-): Promise<MatchStats> {
-  const { data: match, error: matchError } = await supabase
+): Promise<MatchStats> { 
+  console.log("Match ID", matchId);
+  const { data, error: matchError } = await supabase
     .from("matches")
     .select("*")
-    .eq("id", matchId)
+    .eq("fight_info->>fightId", matchId)
     .single();
 
-  if (matchError) throw matchError;
-
-  const { data: roundStats, error: statsError } = await supabase
-    .from("round_stats")
-    .select("*")
-    .eq("match_id", matchId)
-    .order("round_num", { ascending: true });
-
-  if (statsError) throw statsError;
-
-  console.log("Round Stats", roundStats);
-
-  const filteredStats = roundStats.map((round) => {
-    Object.keys(round.stats).forEach((key) => {
-      console.log("Key is", key, "round.stats[key] is", round.stats[key]);
-      const filteredKey = round.stats[key].filter(
-        (s: any) => s.corner === corner
-      );
-      round.stats[key] = filteredKey;
-      console.log("Round is and filtered key is", round, filteredKey);
-    });
-    return round;
-  });
-
-  return {
-    fight_info: match.fight_info,
-    round_stats: filteredStats,
-  };
+  if (matchError) throw matchError; 
+  const currentTime = Date.now(); 
+  return data;
 }
 
-export async function addRoundToActiveMatch(matchId: number, roundNum: number) {
-  try {
-    // Generate round stats
-    const roundStats = generateRoundStats(matchId, roundNum);
+// export async function addRoundToActiveMatch(matchId: number, roundNum: number) {
+//   try {
+//     // Generate round stats
+//     const roundStats = generateRoundStats(matchId, roundNum);
 
-    // Insert the new round stats into the database
-    const { data, error } = await supabase.from("round_stats").insert([
-      {
-        match_id: matchId,
-        round_num: roundNum,
-        ...roundStats,
-      },
-    ]);
+//     // Insert the new round stats into the database
+//     const { data, error } = await supabase.from("round_stats").insert([
+//       {
+//         match_id: matchId,
+//         round_num: roundNum,
+//         ...roundStats,
+//       },
+//     ]);
 
-    if (error) {
-      throw error;
-    }
+//     if (error) {
+//       throw error;
+//     }
 
-    console.log(`Round ${roundNum} added to match ${matchId}`);
+//     console.log(`Round ${roundNum} added to match ${matchId}`);
 
-    // Update the match's current round
-    await supabase
-      .from("matches")
-      .update({ "fight_info.current_round": roundNum })
-      .eq("id", matchId);
+//     // Update the match's current round
+//     await supabase
+//       .from("matches")
+//       .update({ "fight_info.current_round": roundNum })
+//       .eq("id", matchId);
 
-    return data;
-  } catch (error) {
-    console.error(`Error adding round ${roundNum} to match ${matchId}:`, error);
-    throw error;
-  }
-}
+//     return data;
+//   } catch (error) {
+//     console.error(`Error adding round ${roundNum} to match ${matchId}:`, error);
+//     throw error;
+//   }
+// }
 
 export async function updateRoundStats(
   matchId: number,

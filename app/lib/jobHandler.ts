@@ -1,7 +1,7 @@
 import cron from "node-cron";
 import { supabase } from "./supabase";
 import { Match } from "../types/match";
-import { addRoundToActiveMatch, updateRoundStats } from "./matches"; // Assuming these functions exist
+import {  updateRoundStats } from "./matches"; // Assuming these functions exist
 const MINUTE_IN_MS = 60 * 1000;
 
 interface ScheduledTask {
@@ -106,22 +106,7 @@ function scheduleRound(
   const roundStartTime =
     startTime + (roundNum - 1) * (roundLength + breakDuration);
 
-  activeMatches[matchId].timeouts.push(
-    setTimeout(() => {
-      addRoundToActiveMatch(matchId, roundNum);
-    }, roundStartTime - startTime)
-  );
-
-  activeMatches[matchId].timeouts.push(
-    setTimeout(async () => {
-      await updateRoundStats(matchId, roundNum, {
-        rounds_info: [
-          { match_id: matchId, round_num: roundNum, status: "completed" },
-        ],
-      });
-      console.log(`Round ${roundNum} completed for match ${matchId}`);
-    }, roundStartTime - startTime + roundLength)
-  );
+  return { roundStartTime };
 }
 
 function scheduleMatchEnd(matchId: number, endTime: number, match: Match) {

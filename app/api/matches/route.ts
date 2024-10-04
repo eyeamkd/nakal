@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createMatches, getMatches } from "../../lib/matches";
-import { scheduleMatches } from "../../lib/matchScheduler";
+import { createMatches, getMatches, insertMatches } from "../../lib/matches";
+
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
@@ -14,9 +14,11 @@ export async function GET(request: NextRequest) {
 export async function POST() {
   try {
     const newMatches = await createMatches();
-    scheduleMatches(); // Start the match scheduler
+    await insertMatches(newMatches);
+    // scheduleMatches(); // Start the match scheduler
     return NextResponse.json(newMatches, { status: 201 });
   } catch (error) {
+    console.error(error);
     return NextResponse.json(
       { error: "Failed to create matches" },
       { status: 500 }

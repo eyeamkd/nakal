@@ -23,11 +23,11 @@ export function generateMockFightSettings(): FightSettings {
     weight_class: faker.helpers.arrayElement(weightClasses),
     round_length_str: "3 minutes",
     round_length_sec: 180,
-    rounds_scheduled: faker.helpers.arrayElement([3, 6, 9, 12]),
+    rounds_scheduled: 10,
   };
 }
 
-export function generateMockFightInfo(): FightInfo {
+export function generateMockFightInfo(): Pick<FightInfo, "red_name" | "blue_name" | "date" | "result" | "winner" | "cancelled" | "started" | "started_at"> {
   const started = faker.datatype.boolean();
   const startedAt = started ? faker.date.recent({ days: 1 }).getTime() : 0;
   const cancelled = !started && faker.datatype.boolean({ probability: 0.1 });
@@ -41,8 +41,8 @@ export function generateMockFightInfo(): FightInfo {
   }
 
   return {
-    red_name: faker.person.fullName(),
-    blue_name: faker.person.fullName(),
+    red_name: faker.person.fullName() || '',
+    blue_name: faker.person.fullName() || '',
     date: faker.date.recent({ days: 30 }).toISOString().split("T")[0],
     result,
     winner,

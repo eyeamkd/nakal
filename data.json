@@ -1,0 +1,7326 @@
+[
+  {
+    "stance": [
+      {
+        "corner": "red",
+        "squared": -0.01,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.89,
+        "southpaw": 0.12,
+        "round_num": 1,
+        "mock_start": 1728014712587
+      },
+      {
+        "corner": "blue",
+        "squared": 0.22,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.68,
+        "southpaw": 0.1,
+        "round_num": 1,
+        "mock_start": 1728014712587
+      }
+    ],
+    "balance": [
+      {
+        "corner": "red",
+        "neutral": 0.49,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.3,
+        "round_num": 1,
+        "front_foot": 0.21,
+        "mock_start": 1728014712587
+      },
+      {
+        "corner": "blue",
+        "neutral": 0.39,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.3,
+        "round_num": 1,
+        "front_foot": 0.31,
+        "mock_start": 1728014712587
+      }
+    ],
+    "punches": [
+      {
+        "corner": "red",
+        "landed": 19,
+        "thrown": 93,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.27,
+          "max": 0.03,
+          "mid": 0.26,
+          "min": 0.14,
+          "high": 0.3
+        },
+        "power_commit_dist": {
+          "low": 0.25,
+          "max": -0.01,
+          "mid": 0.38,
+          "min": 0.19,
+          "high": 0.19
+        },
+        "landed_quality_dist": {
+          "low": 0.25,
+          "max": 0.23,
+          "mid": 0.31,
+          "min": 0.1,
+          "high": 0.11
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 34,
+        "thrown": 19,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.3,
+          "max": 0.11,
+          "mid": 0.32,
+          "min": 0.13,
+          "high": 0.14
+        },
+        "power_commit_dist": {
+          "low": 0.17,
+          "max": 0.26,
+          "mid": 0.22,
+          "min": 0.11,
+          "high": 0.24
+        },
+        "landed_quality_dist": {
+          "low": 0.29,
+          "max": 0.1,
+          "mid": 0.38,
+          "min": 0.05,
+          "high": 0.18
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 6,
+        "thrown": 53,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.15,
+          "max": 0.01,
+          "mid": 0.4,
+          "min": 0.19,
+          "high": 0.25
+        },
+        "power_commit_dist": {
+          "low": 0.15,
+          "max": 0.3,
+          "mid": 0.39,
+          "min": 0.02,
+          "high": 0.14
+        },
+        "landed_quality_dist": {
+          "low": 0.15,
+          "max": 0.22,
+          "mid": 0.32,
+          "min": 0.2,
+          "high": 0.11
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 31,
+        "thrown": 77,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.16,
+          "max": 0.39,
+          "mid": 0.27,
+          "min": 0.01,
+          "high": 0.17
+        },
+        "power_commit_dist": {
+          "low": 0.15,
+          "max": 0.34,
+          "mid": 0.26,
+          "min": 0.07,
+          "high": 0.18
+        },
+        "landed_quality_dist": {
+          "low": 0.12,
+          "max": 0.26,
+          "mid": 0.36,
+          "min": 0.03,
+          "high": 0.23
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 44,
+        "thrown": 71,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.15,
+          "max": 0.12,
+          "mid": 0.33,
+          "min": 0.16,
+          "high": 0.24
+        },
+        "power_commit_dist": {
+          "low": 0.23,
+          "max": 0.19,
+          "mid": 0.39,
+          "min": 0.07,
+          "high": 0.12
+        },
+        "landed_quality_dist": {
+          "low": 0.17,
+          "max": 0.16,
+          "mid": 0.25,
+          "min": 0.12,
+          "high": 0.3
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 17,
+        "thrown": 15,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.11,
+          "max": 0.26,
+          "mid": 0.37,
+          "min": 0.15,
+          "high": 0.11
+        },
+        "power_commit_dist": {
+          "low": 0.12,
+          "max": 0.22,
+          "mid": 0.26,
+          "min": 0.19,
+          "high": 0.21
+        },
+        "landed_quality_dist": {
+          "low": 0.21,
+          "max": 0.22,
+          "mid": 0.4,
+          "min": 0.01,
+          "high": 0.16
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 47,
+        "thrown": 69,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.14,
+          "max": 0.29,
+          "mid": 0.26,
+          "min": 0.08,
+          "high": 0.23
+        },
+        "power_commit_dist": {
+          "low": 0.27,
+          "max": 0.21,
+          "mid": 0.27,
+          "min": 0.06,
+          "high": 0.19
+        },
+        "landed_quality_dist": {
+          "low": 0.18,
+          "max": 0.15,
+          "mid": 0.39,
+          "min": 0.09,
+          "high": 0.19
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 16,
+        "thrown": 61,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.22,
+          "max": 0.3,
+          "mid": 0.34,
+          "min": 0.02,
+          "high": 0.12
+        },
+        "power_commit_dist": {
+          "low": 0.22,
+          "max": 0.02,
+          "mid": 0.38,
+          "min": 0.15,
+          "high": 0.23
+        },
+        "landed_quality_dist": {
+          "low": 0.15,
+          "max": 0.41,
+          "mid": 0.26,
+          "min": 0.02,
+          "high": 0.16
+        }
+      }
+    ],
+    "distance": [
+      {
+        "clinch": 0.09,
+        "corner": "red",
+        "inside": 0.39,
+        "outside": 0.04,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.48,
+        "round_num": 1,
+        "mock_start": 1728014712587
+      },
+      {
+        "clinch": 0.19,
+        "corner": "blue",
+        "inside": 0.27,
+        "outside": 0.1,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.44,
+        "round_num": 1,
+        "mock_start": 1728014712587
+      }
+    ],
+    "predictions": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "prediction": "draw",
+        "points_total": 5.9260706181022,
+        "points_impact": 6.981628793084034,
+        "win_dominance": 0.6958814116574099,
+        "win_confidence": 0.8781688664540988,
+        "points_pressure": 9.468428134569722,
+        "points_aggression": 9.615794203502944,
+        "avg_impact_points_per_landed": 3.8253587079248974,
+        "avg_impact_points_per_thrown": 1.78547119320233
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "prediction": "draw",
+        "points_total": 5.443231145931242,
+        "points_impact": 3.7489874221963992,
+        "win_dominance": 0.012696860663496068,
+        "win_confidence": 0.8186864406432182,
+        "points_pressure": 8.088521143505115,
+        "points_aggression": 0.2531985844866891,
+        "avg_impact_points_per_landed": 2.639591460100182,
+        "avg_impact_points_per_thrown": 0.42479703560351356
+      }
+    ],
+    "rounds_info": [
+      {
+        "status": "active",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587
+      }
+    ],
+    "stats_summary": [
+      {
+        "corner": "red",
+        "accuracy": 0.3311127386294743,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.15901566232295283,
+        "round_num": 1,
+        "aggression": 0.0823741433748102,
+        "mock_start": 1728014712587,
+        "punch_landed": 90,
+        "punch_thrown": 150,
+        "aggression_power": 0.23408549760079267,
+        "pressure_distance": 0.71083601127809,
+        "pressure_movement": 0.17911287424431577,
+        "pressure_position": 0.4929859517561821,
+        "punch_thrown_power": 27,
+        "aggression_exchanges": 0.11628905901964237,
+        "aggression_combinations": 0.36128033588701625,
+        "punch_landed_high_impact": 44
+      },
+      {
+        "corner": "blue",
+        "accuracy": 0.4558981317722097,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.8166269747882693,
+        "round_num": 1,
+        "aggression": 0.3817907627920034,
+        "mock_start": 1728014712587,
+        "punch_landed": 55,
+        "punch_thrown": 186,
+        "aggression_power": 0.42392020361100813,
+        "pressure_distance": 0.5044715687057353,
+        "pressure_movement": 0.8538300445066545,
+        "pressure_position": 0.3801982677052176,
+        "punch_thrown_power": 55,
+        "aggression_exchanges": 0.18493275551845434,
+        "aggression_combinations": 0.1664804516309144,
+        "punch_landed_high_impact": 47
+      }
+    ],
+    "punch_combinations": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "hook",
+          "jab",
+          "uppercut",
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low",
+          "medium",
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "high",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "low",
+          "high",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "cross",
+          "uppercut",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "cross",
+          "hook",
+          "cross",
+          "hook",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "high",
+          "high",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "medium",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high",
+          "medium",
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "hook",
+          "cross",
+          "hook",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high",
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "cross",
+          "hook",
+          "hook",
+          "cross",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high",
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "medium",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low",
+          "high",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "cross",
+          "jab",
+          "uppercut",
+          "hook",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "medium",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium",
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "medium",
+          "high",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "hook",
+          "cross",
+          "hook",
+          "jab",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low",
+          "medium",
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "low",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "hook",
+          "hook",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "jab",
+          "hook",
+          "uppercut",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high",
+          "low",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "medium",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "high",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "uppercut",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "jab",
+          "jab",
+          "cross",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "hook",
+          "jab",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "hook",
+          "uppercut",
+          "uppercut",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "jab",
+          "hook",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "punch_sequence": [
+          "uppercut",
+          "jab",
+          "uppercut",
+          "jab",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high",
+          "medium",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "low",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium",
+          "high",
+          "high",
+          "low"
+        ]
+      }
+    ],
+    "punch_combinations_summary": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "doubles_thrown": 36,
+        "singles_thrown": 45,
+        "triples_thrown": 10,
+        "quads_more_thrown": 6,
+        "doubles_num_punches": 92,
+        "singles_num_punches": 80,
+        "triples_num_punches": 66,
+        "quads_more_num_punches": 5
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 1,
+        "mock_start": 1728014712587,
+        "doubles_thrown": 16,
+        "singles_thrown": 37,
+        "triples_thrown": 5,
+        "quads_more_thrown": 5,
+        "doubles_num_punches": 33,
+        "singles_num_punches": 77,
+        "triples_num_punches": 75,
+        "quads_more_num_punches": 11
+      }
+    ]
+  },
+  {
+    "stance": [
+      {
+        "corner": "red",
+        "squared": 0.09,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.79,
+        "southpaw": 0.12,
+        "round_num": 2,
+        "mock_start": 1728014892587
+      },
+      {
+        "corner": "blue",
+        "squared": 0.03,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.84,
+        "southpaw": 0.13,
+        "round_num": 2,
+        "mock_start": 1728014892587
+      }
+    ],
+    "balance": [
+      {
+        "corner": "red",
+        "neutral": 0.27,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.35,
+        "round_num": 2,
+        "front_foot": 0.38,
+        "mock_start": 1728014892587
+      },
+      {
+        "corner": "blue",
+        "neutral": 0.36,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.36,
+        "round_num": 2,
+        "front_foot": 0.28,
+        "mock_start": 1728014892587
+      }
+    ],
+    "punches": [
+      {
+        "corner": "red",
+        "landed": 24,
+        "thrown": 59,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.13,
+          "max": 0.31,
+          "mid": 0.25,
+          "min": 0.01,
+          "high": 0.3
+        },
+        "power_commit_dist": {
+          "low": 0.17,
+          "max": 0.11,
+          "mid": 0.35,
+          "min": 0.09,
+          "high": 0.28
+        },
+        "landed_quality_dist": {
+          "low": 0.25,
+          "max": 0.31,
+          "mid": 0.2,
+          "min": 0.03,
+          "high": 0.21
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 29,
+        "thrown": 90,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.15,
+          "max": 0.39,
+          "mid": 0.2,
+          "min": 0.1,
+          "high": 0.16
+        },
+        "power_commit_dist": {
+          "low": 0.27,
+          "max": 0,
+          "mid": 0.34,
+          "min": 0.13,
+          "high": 0.26
+        },
+        "landed_quality_dist": {
+          "low": 0.15,
+          "max": 0.4,
+          "mid": 0.31,
+          "min": 0,
+          "high": 0.14
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 32,
+        "thrown": 50,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.28,
+          "max": 0.02,
+          "mid": 0.39,
+          "min": 0.02,
+          "high": 0.29
+        },
+        "power_commit_dist": {
+          "low": 0.24,
+          "max": 0.37,
+          "mid": 0.22,
+          "min": 0,
+          "high": 0.17
+        },
+        "landed_quality_dist": {
+          "low": 0.19,
+          "max": 0.17,
+          "mid": 0.2,
+          "min": 0.18,
+          "high": 0.26
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 34,
+        "thrown": 54,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.28,
+          "max": 0.16,
+          "mid": 0.26,
+          "min": 0.12,
+          "high": 0.18
+        },
+        "power_commit_dist": {
+          "low": 0.25,
+          "max": 0.01,
+          "mid": 0.32,
+          "min": 0.2,
+          "high": 0.22
+        },
+        "landed_quality_dist": {
+          "low": 0.24,
+          "max": 0.25,
+          "mid": 0.32,
+          "min": 0.04,
+          "high": 0.15
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 47,
+        "thrown": 42,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.28,
+          "max": 0.11,
+          "mid": 0.35,
+          "min": 0.11,
+          "high": 0.15
+        },
+        "power_commit_dist": {
+          "low": 0.27,
+          "max": 0.12,
+          "mid": 0.32,
+          "min": 0.11,
+          "high": 0.18
+        },
+        "landed_quality_dist": {
+          "low": 0.15,
+          "max": 0.17,
+          "mid": 0.35,
+          "min": 0.2,
+          "high": 0.13
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 10,
+        "thrown": 28,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.3,
+          "max": -0.1,
+          "mid": 0.38,
+          "min": 0.18,
+          "high": 0.24
+        },
+        "power_commit_dist": {
+          "low": 0.13,
+          "max": 0.23,
+          "mid": 0.34,
+          "min": 0.16,
+          "high": 0.14
+        },
+        "landed_quality_dist": {
+          "low": 0.17,
+          "max": 0.42,
+          "mid": 0.23,
+          "min": 0.04,
+          "high": 0.14
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 5,
+        "thrown": 42,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.28,
+          "max": 0.07,
+          "mid": 0.3,
+          "min": 0.14,
+          "high": 0.21
+        },
+        "power_commit_dist": {
+          "low": 0.26,
+          "max": -0.04,
+          "mid": 0.32,
+          "min": 0.2,
+          "high": 0.26
+        },
+        "landed_quality_dist": {
+          "low": 0.19,
+          "max": 0.31,
+          "mid": 0.28,
+          "min": 0.05,
+          "high": 0.17
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 44,
+        "thrown": 85,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.11,
+          "max": 0.45,
+          "mid": 0.33,
+          "min": 0,
+          "high": 0.11
+        },
+        "power_commit_dist": {
+          "low": 0.18,
+          "max": 0.23,
+          "mid": 0.3,
+          "min": 0.19,
+          "high": 0.1
+        },
+        "landed_quality_dist": {
+          "low": 0.23,
+          "max": 0.03,
+          "mid": 0.35,
+          "min": 0.17,
+          "high": 0.22
+        }
+      }
+    ],
+    "distance": [
+      {
+        "clinch": 0.13,
+        "corner": "red",
+        "inside": 0.27,
+        "outside": 0.21,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.39,
+        "round_num": 2,
+        "mock_start": 1728014892587
+      },
+      {
+        "clinch": 0.17,
+        "corner": "blue",
+        "inside": 0.24,
+        "outside": 0.29,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.3,
+        "round_num": 2,
+        "mock_start": 1728014892587
+      }
+    ],
+    "predictions": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "prediction": "lose",
+        "points_total": 22.360869599052464,
+        "points_impact": 6.053972833855936,
+        "win_dominance": 0.27178519544647295,
+        "win_confidence": 0.55369361191253,
+        "points_pressure": 4.603972918050641,
+        "points_aggression": 5.692520833886614,
+        "avg_impact_points_per_landed": 3.6811124972785336,
+        "avg_impact_points_per_thrown": 1.6315755770666465
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "prediction": "draw",
+        "points_total": 3.306489453804875,
+        "points_impact": 8.171052229781912,
+        "win_dominance": 0.42641026154411477,
+        "win_confidence": 0.9731297735225073,
+        "points_pressure": 7.319422006205212,
+        "points_aggression": 0.1280977764105251,
+        "avg_impact_points_per_landed": 3.3432202368171704,
+        "avg_impact_points_per_thrown": 0.02269056263482283
+      }
+    ],
+    "rounds_info": [
+      {
+        "status": "active",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587
+      }
+    ],
+    "stats_summary": [
+      {
+        "corner": "red",
+        "accuracy": 0.10439839742188828,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.3387407725456586,
+        "round_num": 2,
+        "aggression": 0.2678078859343578,
+        "mock_start": 1728014892587,
+        "punch_landed": 40,
+        "punch_thrown": 182,
+        "aggression_power": 0.7094660748755279,
+        "pressure_distance": 0.213067988697337,
+        "pressure_movement": 0.2641396688462754,
+        "pressure_position": 0.6484602480567276,
+        "punch_thrown_power": 24,
+        "aggression_exchanges": 0.43303921611292373,
+        "aggression_combinations": 0.06981042768509371,
+        "punch_landed_high_impact": 46
+      },
+      {
+        "corner": "blue",
+        "accuracy": 0.2779219899178156,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.5894058304819094,
+        "round_num": 2,
+        "aggression": 0.11438481013932722,
+        "mock_start": 1728014892587,
+        "punch_landed": 75,
+        "punch_thrown": 108,
+        "aggression_power": 0.46232357624170195,
+        "pressure_distance": 0.7009078654652448,
+        "pressure_movement": 0.11637308834051519,
+        "pressure_position": 0.09173044277100173,
+        "punch_thrown_power": 80,
+        "aggression_exchanges": 0.5870208940516441,
+        "aggression_combinations": 0.6252071831259596,
+        "punch_landed_high_impact": 18
+      }
+    ],
+    "punch_combinations": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "jab",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "medium",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium",
+          "medium",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "jab",
+          "hook",
+          "jab",
+          "cross",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "low",
+          "low",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "medium",
+          "high",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "medium",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "uppercut",
+          "hook",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "low",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "high",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "uppercut",
+          "jab",
+          "cross",
+          "uppercut",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high",
+          "high",
+          "high",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "low",
+          "medium",
+          "high",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high",
+          "low",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "uppercut",
+          "hook",
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "uppercut",
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "hook",
+          "uppercut",
+          "uppercut",
+          "uppercut",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "low",
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "medium",
+          "high",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low",
+          "medium",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "hook",
+          "uppercut",
+          "cross",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "jab",
+          "hook",
+          "hook",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "high",
+          "high",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "low",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "jab",
+          "uppercut",
+          "cross",
+          "jab",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "high",
+          "low",
+          "low",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "high",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "high",
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "punch_sequence": [
+          "uppercut",
+          "uppercut",
+          "cross",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "low",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "high",
+          "medium",
+          "high"
+        ]
+      }
+    ],
+    "punch_combinations_summary": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "doubles_thrown": 36,
+        "singles_thrown": 80,
+        "triples_thrown": 17,
+        "quads_more_thrown": 5,
+        "doubles_num_punches": 66,
+        "singles_num_punches": 80,
+        "triples_num_punches": 38,
+        "quads_more_num_punches": 20
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 2,
+        "mock_start": 1728014892587,
+        "doubles_thrown": 43,
+        "singles_thrown": 58,
+        "triples_thrown": 13,
+        "quads_more_thrown": 6,
+        "doubles_num_punches": 87,
+        "singles_num_punches": 46,
+        "triples_num_punches": 74,
+        "quads_more_num_punches": 32
+      }
+    ]
+  },
+  {
+    "stance": [
+      {
+        "corner": "red",
+        "squared": 0,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.88,
+        "southpaw": 0.12,
+        "round_num": 3,
+        "mock_start": 1728015072587
+      },
+      {
+        "corner": "blue",
+        "squared": 0.16,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.7,
+        "southpaw": 0.14,
+        "round_num": 3,
+        "mock_start": 1728015072587
+      }
+    ],
+    "balance": [
+      {
+        "corner": "red",
+        "neutral": 0.46,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.28,
+        "round_num": 3,
+        "front_foot": 0.26,
+        "mock_start": 1728015072587
+      },
+      {
+        "corner": "blue",
+        "neutral": 0.4,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.29,
+        "round_num": 3,
+        "front_foot": 0.31,
+        "mock_start": 1728015072587
+      }
+    ],
+    "punches": [
+      {
+        "corner": "red",
+        "landed": 17,
+        "thrown": 81,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.27,
+          "max": 0.22,
+          "mid": 0.31,
+          "min": 0.02,
+          "high": 0.18
+        },
+        "power_commit_dist": {
+          "low": 0.29,
+          "max": -0.1,
+          "mid": 0.33,
+          "min": 0.2,
+          "high": 0.28
+        },
+        "landed_quality_dist": {
+          "low": 0.17,
+          "max": 0.24,
+          "mid": 0.2,
+          "min": 0.12,
+          "high": 0.27
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 12,
+        "thrown": 58,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.24,
+          "max": 0.04,
+          "mid": 0.38,
+          "min": 0.15,
+          "high": 0.19
+        },
+        "power_commit_dist": {
+          "low": 0.25,
+          "max": 0.24,
+          "mid": 0.36,
+          "min": 0,
+          "high": 0.15
+        },
+        "landed_quality_dist": {
+          "low": 0.28,
+          "max": 0,
+          "mid": 0.29,
+          "min": 0.13,
+          "high": 0.3
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 24,
+        "thrown": 13,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.3,
+          "max": 0.26,
+          "mid": 0.21,
+          "min": 0.07,
+          "high": 0.16
+        },
+        "power_commit_dist": {
+          "low": 0.3,
+          "max": -0.06,
+          "mid": 0.35,
+          "min": 0.15,
+          "high": 0.26
+        },
+        "landed_quality_dist": {
+          "low": 0.27,
+          "max": 0.13,
+          "mid": 0.25,
+          "min": 0.18,
+          "high": 0.17
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 31,
+        "thrown": 87,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.11,
+          "max": 0.33,
+          "mid": 0.37,
+          "min": 0.07,
+          "high": 0.12
+        },
+        "power_commit_dist": {
+          "low": 0.15,
+          "max": 0.27,
+          "mid": 0.35,
+          "min": 0.03,
+          "high": 0.2
+        },
+        "landed_quality_dist": {
+          "low": 0.27,
+          "max": 0.2,
+          "mid": 0.23,
+          "min": 0.06,
+          "high": 0.24
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 25,
+        "thrown": 95,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.17,
+          "max": 0.16,
+          "mid": 0.33,
+          "min": 0.05,
+          "high": 0.29
+        },
+        "power_commit_dist": {
+          "low": 0.11,
+          "max": 0.36,
+          "mid": 0.23,
+          "min": 0.09,
+          "high": 0.21
+        },
+        "landed_quality_dist": {
+          "low": 0.12,
+          "max": 0.07,
+          "mid": 0.32,
+          "min": 0.19,
+          "high": 0.3
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 49,
+        "thrown": 98,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.22,
+          "max": 0.34,
+          "mid": 0.24,
+          "min": 0.09,
+          "high": 0.11
+        },
+        "power_commit_dist": {
+          "low": 0.16,
+          "max": 0.17,
+          "mid": 0.34,
+          "min": 0.17,
+          "high": 0.16
+        },
+        "landed_quality_dist": {
+          "low": 0.21,
+          "max": 0.14,
+          "mid": 0.33,
+          "min": 0.02,
+          "high": 0.3
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 49,
+        "thrown": 34,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.28,
+          "max": 0.16,
+          "mid": 0.25,
+          "min": 0.04,
+          "high": 0.27
+        },
+        "power_commit_dist": {
+          "low": 0.2,
+          "max": 0.23,
+          "mid": 0.22,
+          "min": 0.19,
+          "high": 0.16
+        },
+        "landed_quality_dist": {
+          "low": 0.12,
+          "max": 0.31,
+          "mid": 0.39,
+          "min": 0.08,
+          "high": 0.1
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 24,
+        "thrown": 21,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.23,
+          "max": -0.07,
+          "mid": 0.4,
+          "min": 0.17,
+          "high": 0.27
+        },
+        "power_commit_dist": {
+          "low": 0.14,
+          "max": 0.32,
+          "mid": 0.2,
+          "min": 0.11,
+          "high": 0.23
+        },
+        "landed_quality_dist": {
+          "low": 0.16,
+          "max": 0.28,
+          "mid": 0.36,
+          "min": 0.07,
+          "high": 0.13
+        }
+      }
+    ],
+    "distance": [
+      {
+        "clinch": 0.13,
+        "corner": "red",
+        "inside": 0.33,
+        "outside": 0.13,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.41,
+        "round_num": 3,
+        "mock_start": 1728015072587
+      },
+      {
+        "clinch": 0.08,
+        "corner": "blue",
+        "inside": 0.38,
+        "outside": 0.2,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.34,
+        "round_num": 3,
+        "mock_start": 1728015072587
+      }
+    ],
+    "predictions": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "prediction": "draw",
+        "points_total": 9.705929542447937,
+        "points_impact": 7.524181139099255,
+        "win_dominance": 0.5860337957813493,
+        "win_confidence": 0.05189771904763063,
+        "points_pressure": 0.3544165478714256,
+        "points_aggression": 5.816461481791229,
+        "avg_impact_points_per_landed": 2.4937966238350495,
+        "avg_impact_points_per_thrown": 1.9511174857624902
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "prediction": "lose",
+        "points_total": 20.377841999037216,
+        "points_impact": 5.423458723159145,
+        "win_dominance": 0.6042935273263066,
+        "win_confidence": 0.7023983695022229,
+        "points_pressure": 7.268854086036718,
+        "points_aggression": 8.617230678390936,
+        "avg_impact_points_per_landed": 3.35078075054281,
+        "avg_impact_points_per_thrown": 0.24070005939137196
+      }
+    ],
+    "rounds_info": [
+      {
+        "status": "active",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587
+      }
+    ],
+    "stats_summary": [
+      {
+        "corner": "red",
+        "accuracy": 0.5700535992693994,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.6068307339526304,
+        "round_num": 3,
+        "aggression": 0.9587700888888717,
+        "mock_start": 1728015072587,
+        "punch_landed": 96,
+        "punch_thrown": 64,
+        "aggression_power": 0.18097207599382448,
+        "pressure_distance": 0.2700977251664125,
+        "pressure_movement": 0.8943858419266557,
+        "pressure_position": 0.034550387898861334,
+        "punch_thrown_power": 34,
+        "aggression_exchanges": 0.5753375398145706,
+        "aggression_combinations": 0.4411306476454149,
+        "punch_landed_high_impact": 38
+      },
+      {
+        "corner": "blue",
+        "accuracy": 0.9629207136485525,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.6188283619105777,
+        "round_num": 3,
+        "aggression": 0.6703913741734209,
+        "mock_start": 1728015072587,
+        "punch_landed": 61,
+        "punch_thrown": 131,
+        "aggression_power": 0.9655922141050124,
+        "pressure_distance": 0.9938237179040612,
+        "pressure_movement": 0.47522045376637023,
+        "pressure_position": 0.7207227047806313,
+        "punch_thrown_power": 21,
+        "aggression_exchanges": 0.8955944547248658,
+        "aggression_combinations": 0.5003913478116657,
+        "punch_landed_high_impact": 21
+      }
+    ],
+    "punch_combinations": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_sequence": [
+          "jab",
+          "jab",
+          "uppercut",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "cross",
+          "uppercut",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low",
+          "low",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "medium",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high",
+          "low",
+          "medium",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_sequence": [
+          "uppercut",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_sequence": [
+          "jab",
+          "jab",
+          "jab",
+          "hook",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "high",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "high",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_sequence": [
+          "jab",
+          "uppercut",
+          "uppercut",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_sequence": [
+          "hook",
+          "uppercut",
+          "cross",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "punch_sequence": [
+          "jab",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low"
+        ]
+      }
+    ],
+    "punch_combinations_summary": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "doubles_thrown": 28,
+        "singles_thrown": 46,
+        "triples_thrown": 17,
+        "quads_more_thrown": 10,
+        "doubles_num_punches": 58,
+        "singles_num_punches": 61,
+        "triples_num_punches": 28,
+        "quads_more_num_punches": 6
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 3,
+        "mock_start": 1728015072587,
+        "doubles_thrown": 31,
+        "singles_thrown": 69,
+        "triples_thrown": 9,
+        "quads_more_thrown": 10,
+        "doubles_num_punches": 69,
+        "singles_num_punches": 66,
+        "triples_num_punches": 50,
+        "quads_more_num_punches": 10
+      }
+    ]
+  },
+  {
+    "stance": [
+      {
+        "corner": "red",
+        "squared": 0.23,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.66,
+        "southpaw": 0.11,
+        "round_num": 4,
+        "mock_start": 1728015252587
+      },
+      {
+        "corner": "blue",
+        "squared": 0.19,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.74,
+        "southpaw": 0.07,
+        "round_num": 4,
+        "mock_start": 1728015252587
+      }
+    ],
+    "balance": [
+      {
+        "corner": "red",
+        "neutral": 0.38,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.31,
+        "round_num": 4,
+        "front_foot": 0.31,
+        "mock_start": 1728015252587
+      },
+      {
+        "corner": "blue",
+        "neutral": 0.34,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.31,
+        "round_num": 4,
+        "front_foot": 0.35,
+        "mock_start": 1728015252587
+      }
+    ],
+    "punches": [
+      {
+        "corner": "red",
+        "landed": 33,
+        "thrown": 59,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.2,
+          "max": 0.33,
+          "mid": 0.24,
+          "min": 0.07,
+          "high": 0.16
+        },
+        "power_commit_dist": {
+          "low": 0.12,
+          "max": 0.18,
+          "mid": 0.4,
+          "min": 0.02,
+          "high": 0.28
+        },
+        "landed_quality_dist": {
+          "low": 0.16,
+          "max": 0.2,
+          "mid": 0.36,
+          "min": 0.08,
+          "high": 0.2
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 14,
+        "thrown": 81,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.15,
+          "max": 0.07,
+          "mid": 0.29,
+          "min": 0.2,
+          "high": 0.29
+        },
+        "power_commit_dist": {
+          "low": 0.24,
+          "max": 0.13,
+          "mid": 0.38,
+          "min": 0.12,
+          "high": 0.13
+        },
+        "landed_quality_dist": {
+          "low": 0.12,
+          "max": 0.22,
+          "mid": 0.36,
+          "min": 0.09,
+          "high": 0.21
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 17,
+        "thrown": 96,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.1,
+          "max": 0.26,
+          "mid": 0.29,
+          "min": 0.1,
+          "high": 0.25
+        },
+        "power_commit_dist": {
+          "low": 0.25,
+          "max": 0.08,
+          "mid": 0.34,
+          "min": 0.11,
+          "high": 0.22
+        },
+        "landed_quality_dist": {
+          "low": 0.23,
+          "max": 0.13,
+          "mid": 0.36,
+          "min": 0.12,
+          "high": 0.16
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 23,
+        "thrown": 62,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.1,
+          "max": 0.46,
+          "mid": 0.26,
+          "min": 0.02,
+          "high": 0.16
+        },
+        "power_commit_dist": {
+          "low": 0.18,
+          "max": 0.01,
+          "mid": 0.35,
+          "min": 0.18,
+          "high": 0.28
+        },
+        "landed_quality_dist": {
+          "low": 0.1,
+          "max": 0.23,
+          "mid": 0.38,
+          "min": 0.07,
+          "high": 0.22
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 23,
+        "thrown": 39,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.15,
+          "max": 0.52,
+          "mid": 0.21,
+          "min": 0.02,
+          "high": 0.1
+        },
+        "power_commit_dist": {
+          "low": 0.25,
+          "max": 0.07,
+          "mid": 0.39,
+          "min": 0.07,
+          "high": 0.22
+        },
+        "landed_quality_dist": {
+          "low": 0.16,
+          "max": 0.23,
+          "mid": 0.29,
+          "min": 0.1,
+          "high": 0.22
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 6,
+        "thrown": 20,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.16,
+          "max": 0.39,
+          "mid": 0.23,
+          "min": 0.05,
+          "high": 0.17
+        },
+        "power_commit_dist": {
+          "low": 0.17,
+          "max": 0.22,
+          "mid": 0.22,
+          "min": 0.17,
+          "high": 0.22
+        },
+        "landed_quality_dist": {
+          "low": 0.26,
+          "max": 0.29,
+          "mid": 0.22,
+          "min": 0.04,
+          "high": 0.19
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 26,
+        "thrown": 75,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.29,
+          "max": 0.11,
+          "mid": 0.38,
+          "min": 0.04,
+          "high": 0.18
+        },
+        "power_commit_dist": {
+          "low": 0.15,
+          "max": 0.07,
+          "mid": 0.31,
+          "min": 0.19,
+          "high": 0.28
+        },
+        "landed_quality_dist": {
+          "low": 0.17,
+          "max": 0.22,
+          "mid": 0.25,
+          "min": 0.17,
+          "high": 0.19
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 45,
+        "thrown": 54,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.29,
+          "max": 0.05,
+          "mid": 0.38,
+          "min": 0.09,
+          "high": 0.19
+        },
+        "power_commit_dist": {
+          "low": 0.13,
+          "max": 0.3,
+          "mid": 0.32,
+          "min": 0.05,
+          "high": 0.2
+        },
+        "landed_quality_dist": {
+          "low": 0.13,
+          "max": 0.22,
+          "mid": 0.26,
+          "min": 0.16,
+          "high": 0.23
+        }
+      }
+    ],
+    "distance": [
+      {
+        "clinch": 0.19,
+        "corner": "red",
+        "inside": 0.24,
+        "outside": 0.26,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.31,
+        "round_num": 4,
+        "mock_start": 1728015252587
+      },
+      {
+        "clinch": 0.05,
+        "corner": "blue",
+        "inside": 0.28,
+        "outside": 0.22,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.45,
+        "round_num": 4,
+        "mock_start": 1728015252587
+      }
+    ],
+    "predictions": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "prediction": "lose",
+        "points_total": 24.541420394268126,
+        "points_impact": 1.552439387448854,
+        "win_dominance": 0.8801360175173654,
+        "win_confidence": 0.2249912988861582,
+        "points_pressure": 4.5723200275294325,
+        "points_aggression": 8.48948516703439,
+        "avg_impact_points_per_landed": 4.011177279945376,
+        "avg_impact_points_per_thrown": 0.9936551283442328
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "prediction": "win",
+        "points_total": 13.973109653725267,
+        "points_impact": 2.5895089097375523,
+        "win_dominance": 0.3713451681468374,
+        "win_confidence": 0.14244235353750945,
+        "points_pressure": 5.652358022053898,
+        "points_aggression": 3.3975217464516283,
+        "avg_impact_points_per_landed": 2.3634075493005646,
+        "avg_impact_points_per_thrown": 1.7185378641547808
+      }
+    ],
+    "rounds_info": [
+      {
+        "status": "active",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587
+      }
+    ],
+    "stats_summary": [
+      {
+        "corner": "red",
+        "accuracy": 0.41536146493123316,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.31998169612503413,
+        "round_num": 4,
+        "aggression": 0.06187176292137653,
+        "mock_start": 1728015252587,
+        "punch_landed": 27,
+        "punch_thrown": 196,
+        "aggression_power": 0.8973768009296217,
+        "pressure_distance": 0.17258198209698183,
+        "pressure_movement": 0.7784708414945145,
+        "pressure_position": 0.7519751991613899,
+        "punch_thrown_power": 91,
+        "aggression_exchanges": 0.6885757280901312,
+        "aggression_combinations": 0.390307191018878,
+        "punch_landed_high_impact": 34
+      },
+      {
+        "corner": "blue",
+        "accuracy": 0.03988603195491369,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.9454573080608886,
+        "round_num": 4,
+        "aggression": 0.8202021396704429,
+        "mock_start": 1728015252587,
+        "punch_landed": 22,
+        "punch_thrown": 131,
+        "aggression_power": 0.32017475906600645,
+        "pressure_distance": 0.6086380743370359,
+        "pressure_movement": 0.18379250485301135,
+        "pressure_position": 0.19381660473140694,
+        "punch_thrown_power": 46,
+        "aggression_exchanges": 0.12132239881407347,
+        "aggression_combinations": 0.7710086250108577,
+        "punch_landed_high_impact": 31
+      }
+    ],
+    "punch_combinations": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_sequence": [
+          "cross",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "cross",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_sequence": [
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_sequence": [
+          "hook",
+          "hook",
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low",
+          "high",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_sequence": [
+          "jab",
+          "hook",
+          "uppercut",
+          "cross",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "low",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "medium",
+          "medium",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "high",
+          "medium",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_sequence": [
+          "uppercut",
+          "cross",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_sequence": [
+          "uppercut",
+          "jab",
+          "hook",
+          "cross",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low",
+          "high",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "medium",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "low",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "punch_sequence": [
+          "cross",
+          "jab",
+          "cross",
+          "cross",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "low",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "medium",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium",
+          "low",
+          "high",
+          "low"
+        ]
+      }
+    ],
+    "punch_combinations_summary": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "doubles_thrown": 19,
+        "singles_thrown": 65,
+        "triples_thrown": 13,
+        "quads_more_thrown": 8,
+        "doubles_num_punches": 82,
+        "singles_num_punches": 34,
+        "triples_num_punches": 51,
+        "quads_more_num_punches": 38
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 4,
+        "mock_start": 1728015252587,
+        "doubles_thrown": 29,
+        "singles_thrown": 52,
+        "triples_thrown": 12,
+        "quads_more_thrown": 7,
+        "doubles_num_punches": 70,
+        "singles_num_punches": 95,
+        "triples_num_punches": 23,
+        "quads_more_num_punches": 1
+      }
+    ]
+  },
+  {
+    "stance": [
+      {
+        "corner": "red",
+        "squared": 0.1,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.74,
+        "southpaw": 0.16,
+        "round_num": 5,
+        "mock_start": 1728015432587
+      },
+      {
+        "corner": "blue",
+        "squared": -0.02,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.83,
+        "southpaw": 0.19,
+        "round_num": 5,
+        "mock_start": 1728015432587
+      }
+    ],
+    "balance": [
+      {
+        "corner": "red",
+        "neutral": 0.35,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.32,
+        "round_num": 5,
+        "front_foot": 0.33,
+        "mock_start": 1728015432587
+      },
+      {
+        "corner": "blue",
+        "neutral": 0.51,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.2,
+        "round_num": 5,
+        "front_foot": 0.29,
+        "mock_start": 1728015432587
+      }
+    ],
+    "punches": [
+      {
+        "corner": "red",
+        "landed": 25,
+        "thrown": 68,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.2,
+          "max": 0.35,
+          "mid": 0.26,
+          "min": 0.08,
+          "high": 0.11
+        },
+        "power_commit_dist": {
+          "low": 0.3,
+          "max": 0.04,
+          "mid": 0.28,
+          "min": 0.09,
+          "high": 0.29
+        },
+        "landed_quality_dist": {
+          "low": 0.3,
+          "max": 0.13,
+          "mid": 0.22,
+          "min": 0.19,
+          "high": 0.16
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 13,
+        "thrown": 99,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.17,
+          "max": 0.02,
+          "mid": 0.37,
+          "min": 0.19,
+          "high": 0.25
+        },
+        "power_commit_dist": {
+          "low": 0.26,
+          "max": -0.04,
+          "mid": 0.4,
+          "min": 0.16,
+          "high": 0.22
+        },
+        "landed_quality_dist": {
+          "low": 0.3,
+          "max": 0.16,
+          "mid": 0.27,
+          "min": 0.02,
+          "high": 0.25
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 33,
+        "thrown": 13,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.27,
+          "max": 0.11,
+          "mid": 0.4,
+          "min": 0.11,
+          "high": 0.11
+        },
+        "power_commit_dist": {
+          "low": 0.18,
+          "max": 0.49,
+          "mid": 0.2,
+          "min": 0.02,
+          "high": 0.11
+        },
+        "landed_quality_dist": {
+          "low": 0.28,
+          "max": 0.2,
+          "mid": 0.23,
+          "min": 0,
+          "high": 0.29
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 12,
+        "thrown": 70,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.28,
+          "max": 0.13,
+          "mid": 0.26,
+          "min": 0.08,
+          "high": 0.25
+        },
+        "power_commit_dist": {
+          "low": 0.27,
+          "max": 0.29,
+          "mid": 0.24,
+          "min": 0.01,
+          "high": 0.19
+        },
+        "landed_quality_dist": {
+          "low": 0.11,
+          "max": 0.18,
+          "mid": 0.35,
+          "min": 0.18,
+          "high": 0.18
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 31,
+        "thrown": 49,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.15,
+          "max": 0.2,
+          "mid": 0.35,
+          "min": 0.11,
+          "high": 0.19
+        },
+        "power_commit_dist": {
+          "low": 0.24,
+          "max": 0.22,
+          "mid": 0.25,
+          "min": 0.01,
+          "high": 0.28
+        },
+        "landed_quality_dist": {
+          "low": 0.21,
+          "max": 0.42,
+          "mid": 0.22,
+          "min": 0,
+          "high": 0.15
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 27,
+        "thrown": 48,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.12,
+          "max": 0.14,
+          "mid": 0.4,
+          "min": 0.1,
+          "high": 0.24
+        },
+        "power_commit_dist": {
+          "low": 0.18,
+          "max": 0.2,
+          "mid": 0.21,
+          "min": 0.17,
+          "high": 0.24
+        },
+        "landed_quality_dist": {
+          "low": 0.3,
+          "max": 0.25,
+          "mid": 0.22,
+          "min": 0.08,
+          "high": 0.15
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 35,
+        "thrown": 85,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.15,
+          "max": 0.29,
+          "mid": 0.26,
+          "min": 0,
+          "high": 0.3
+        },
+        "power_commit_dist": {
+          "low": 0.23,
+          "max": 0.25,
+          "mid": 0.3,
+          "min": 0,
+          "high": 0.22
+        },
+        "landed_quality_dist": {
+          "low": 0.15,
+          "max": 0.27,
+          "mid": 0.25,
+          "min": 0.17,
+          "high": 0.16
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 13,
+        "thrown": 18,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.25,
+          "max": 0.11,
+          "mid": 0.37,
+          "min": 0.16,
+          "high": 0.11
+        },
+        "power_commit_dist": {
+          "low": 0.3,
+          "max": 0.04,
+          "mid": 0.32,
+          "min": 0.1,
+          "high": 0.24
+        },
+        "landed_quality_dist": {
+          "low": 0.29,
+          "max": -0.07,
+          "mid": 0.35,
+          "min": 0.19,
+          "high": 0.24
+        }
+      }
+    ],
+    "distance": [
+      {
+        "clinch": 0.18,
+        "corner": "red",
+        "inside": 0.33,
+        "outside": 0.18,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.31,
+        "round_num": 5,
+        "mock_start": 1728015432587
+      },
+      {
+        "clinch": 0.07,
+        "corner": "blue",
+        "inside": 0.33,
+        "outside": 0.26,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.34,
+        "round_num": 5,
+        "mock_start": 1728015432587
+      }
+    ],
+    "predictions": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "prediction": "draw",
+        "points_total": 20.01759849307356,
+        "points_impact": 4.118651942960483,
+        "win_dominance": 0.4927998186188294,
+        "win_confidence": 0.33108360669467607,
+        "points_pressure": 9.735073245928756,
+        "points_aggression": 2.2543361791130923,
+        "avg_impact_points_per_landed": 2.398765202138814,
+        "avg_impact_points_per_thrown": 1.4943034222459526
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "prediction": "win",
+        "points_total": 2.5014628956197793,
+        "points_impact": 1.9720387373229342,
+        "win_dominance": 0.5955057136670603,
+        "win_confidence": 0.45032159444805364,
+        "points_pressure": 6.248057725926914,
+        "points_aggression": 3.2667927022672005,
+        "avg_impact_points_per_landed": 1.0053929552005025,
+        "avg_impact_points_per_thrown": 1.6098766631965475
+      }
+    ],
+    "rounds_info": [
+      {
+        "status": "active",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587
+      }
+    ],
+    "stats_summary": [
+      {
+        "corner": "red",
+        "accuracy": 0.2891759798487421,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.06871123194670736,
+        "round_num": 5,
+        "aggression": 0.3366692761350245,
+        "mock_start": 1728015432587,
+        "punch_landed": 23,
+        "punch_thrown": 157,
+        "aggression_power": 0.5337926636622423,
+        "pressure_distance": 0.44227742032847095,
+        "pressure_movement": 0.2920156914908807,
+        "pressure_position": 0.7709808343324736,
+        "punch_thrown_power": 25,
+        "aggression_exchanges": 0.05560239691555724,
+        "aggression_combinations": 0.9306366378853508,
+        "punch_landed_high_impact": 29
+      },
+      {
+        "corner": "blue",
+        "accuracy": 0.13171717267109262,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.7624274923081349,
+        "round_num": 5,
+        "aggression": 0.2751070815604453,
+        "mock_start": 1728015432587,
+        "punch_landed": 60,
+        "punch_thrown": 60,
+        "aggression_power": 0.9042470089351637,
+        "pressure_distance": 0.7847733407765822,
+        "pressure_movement": 0.9104146821637147,
+        "pressure_position": 0.707953522350024,
+        "punch_thrown_power": 34,
+        "aggression_exchanges": 0.4720299320201635,
+        "aggression_combinations": 0.1830227715253936,
+        "punch_landed_high_impact": 49
+      }
+    ],
+    "punch_combinations": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "uppercut",
+          "uppercut",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low",
+          "low",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "low",
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low",
+          "low",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_sequence": [
+          "hook",
+          "hook",
+          "jab",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "low",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium",
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_sequence": [
+          "uppercut",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_sequence": [
+          "hook",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_sequence": [
+          "uppercut",
+          "cross",
+          "jab",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "medium",
+          "high",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_sequence": [
+          "jab",
+          "jab",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "punch_sequence": [
+          "jab",
+          "cross",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium",
+          "medium"
+        ]
+      }
+    ],
+    "punch_combinations_summary": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "doubles_thrown": 45,
+        "singles_thrown": 87,
+        "triples_thrown": 13,
+        "quads_more_thrown": 5,
+        "doubles_num_punches": 57,
+        "singles_num_punches": 68,
+        "triples_num_punches": 62,
+        "quads_more_num_punches": 11
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 5,
+        "mock_start": 1728015432587,
+        "doubles_thrown": 19,
+        "singles_thrown": 94,
+        "triples_thrown": 22,
+        "quads_more_thrown": 8,
+        "doubles_num_punches": 51,
+        "singles_num_punches": 73,
+        "triples_num_punches": 42,
+        "quads_more_num_punches": 26
+      }
+    ]
+  },
+  {
+    "stance": [
+      {
+        "corner": "red",
+        "squared": 0.19,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.67,
+        "southpaw": 0.14,
+        "round_num": 6,
+        "mock_start": 1728015612587
+      },
+      {
+        "corner": "blue",
+        "squared": 0.17,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.68,
+        "southpaw": 0.15,
+        "round_num": 6,
+        "mock_start": 1728015612587
+      }
+    ],
+    "balance": [
+      {
+        "corner": "red",
+        "neutral": 0.28,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.33,
+        "round_num": 6,
+        "front_foot": 0.39,
+        "mock_start": 1728015612587
+      },
+      {
+        "corner": "blue",
+        "neutral": 0.46,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.24,
+        "round_num": 6,
+        "front_foot": 0.3,
+        "mock_start": 1728015612587
+      }
+    ],
+    "punches": [
+      {
+        "corner": "red",
+        "landed": 30,
+        "thrown": 80,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.27,
+          "max": 0.12,
+          "mid": 0.3,
+          "min": 0.08,
+          "high": 0.23
+        },
+        "power_commit_dist": {
+          "low": 0.14,
+          "max": 0.36,
+          "mid": 0.2,
+          "min": 0.1,
+          "high": 0.2
+        },
+        "landed_quality_dist": {
+          "low": 0.16,
+          "max": 0.32,
+          "mid": 0.33,
+          "min": 0.01,
+          "high": 0.18
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 35,
+        "thrown": 57,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.1,
+          "max": 0.26,
+          "mid": 0.38,
+          "min": 0.1,
+          "high": 0.16
+        },
+        "power_commit_dist": {
+          "low": 0.17,
+          "max": 0.35,
+          "mid": 0.22,
+          "min": 0.16,
+          "high": 0.1
+        },
+        "landed_quality_dist": {
+          "low": 0.28,
+          "max": -0.01,
+          "mid": 0.35,
+          "min": 0.09,
+          "high": 0.29
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 17,
+        "thrown": 74,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.23,
+          "max": 0.14,
+          "mid": 0.28,
+          "min": 0.05,
+          "high": 0.3
+        },
+        "power_commit_dist": {
+          "low": 0.14,
+          "max": 0.16,
+          "mid": 0.27,
+          "min": 0.17,
+          "high": 0.26
+        },
+        "landed_quality_dist": {
+          "low": 0.21,
+          "max": 0.26,
+          "mid": 0.38,
+          "min": 0.05,
+          "high": 0.1
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 47,
+        "thrown": 68,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.14,
+          "max": 0.38,
+          "mid": 0.23,
+          "min": 0,
+          "high": 0.25
+        },
+        "power_commit_dist": {
+          "low": 0.29,
+          "max": 0.06,
+          "mid": 0.21,
+          "min": 0.15,
+          "high": 0.29
+        },
+        "landed_quality_dist": {
+          "low": 0.15,
+          "max": 0.21,
+          "mid": 0.39,
+          "min": 0.02,
+          "high": 0.23
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 34,
+        "thrown": 91,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.17,
+          "max": 0.08,
+          "mid": 0.25,
+          "min": 0.2,
+          "high": 0.3
+        },
+        "power_commit_dist": {
+          "low": 0.22,
+          "max": 0.04,
+          "mid": 0.34,
+          "min": 0.14,
+          "high": 0.26
+        },
+        "landed_quality_dist": {
+          "low": 0.21,
+          "max": 0.14,
+          "mid": 0.37,
+          "min": 0.07,
+          "high": 0.21
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 48,
+        "thrown": 67,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.11,
+          "max": 0.27,
+          "mid": 0.24,
+          "min": 0.1,
+          "high": 0.28
+        },
+        "power_commit_dist": {
+          "low": 0.18,
+          "max": 0.07,
+          "mid": 0.34,
+          "min": 0.15,
+          "high": 0.26
+        },
+        "landed_quality_dist": {
+          "low": 0.24,
+          "max": 0.05,
+          "mid": 0.36,
+          "min": 0.07,
+          "high": 0.28
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 7,
+        "thrown": 55,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.12,
+          "max": 0.33,
+          "mid": 0.39,
+          "min": 0.04,
+          "high": 0.12
+        },
+        "power_commit_dist": {
+          "low": 0.24,
+          "max": 0.23,
+          "mid": 0.31,
+          "min": 0.02,
+          "high": 0.2
+        },
+        "landed_quality_dist": {
+          "low": 0.21,
+          "max": 0.27,
+          "mid": 0.27,
+          "min": 0.11,
+          "high": 0.14
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 20,
+        "thrown": 87,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.14,
+          "max": 0.42,
+          "mid": 0.21,
+          "min": 0.08,
+          "high": 0.15
+        },
+        "power_commit_dist": {
+          "low": 0.1,
+          "max": 0.25,
+          "mid": 0.24,
+          "min": 0.17,
+          "high": 0.24
+        },
+        "landed_quality_dist": {
+          "low": 0.12,
+          "max": 0.17,
+          "mid": 0.35,
+          "min": 0.14,
+          "high": 0.22
+        }
+      }
+    ],
+    "distance": [
+      {
+        "clinch": 0.13,
+        "corner": "red",
+        "inside": 0.39,
+        "outside": 0.02,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.46,
+        "round_num": 6,
+        "mock_start": 1728015612587
+      },
+      {
+        "clinch": 0.08,
+        "corner": "blue",
+        "inside": 0.3,
+        "outside": 0.23,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.39,
+        "round_num": 6,
+        "mock_start": 1728015612587
+      }
+    ],
+    "predictions": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "prediction": "lose",
+        "points_total": 0.10837122742320959,
+        "points_impact": 7.739372950600066,
+        "win_dominance": 0.10399224387790396,
+        "win_confidence": 0.19257711968501345,
+        "points_pressure": 0.48528765370005056,
+        "points_aggression": 3.7493066709410128,
+        "avg_impact_points_per_landed": 1.4259301539203173,
+        "avg_impact_points_per_thrown": 1.0006144804112798
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "prediction": "lose",
+        "points_total": 13.848314253636513,
+        "points_impact": 5.207344591006857,
+        "win_dominance": 0.30613777444185386,
+        "win_confidence": 0.9407571571497289,
+        "points_pressure": 6.267652436837197,
+        "points_aggression": 1.0503030126068524,
+        "avg_impact_points_per_landed": 2.526209525128793,
+        "avg_impact_points_per_thrown": 2.2822565446223915
+      }
+    ],
+    "rounds_info": [
+      {
+        "status": "active",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587
+      }
+    ],
+    "stats_summary": [
+      {
+        "corner": "red",
+        "accuracy": 0.9703122060481042,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.501519667614434,
+        "round_num": 6,
+        "aggression": 0.8357294720272421,
+        "mock_start": 1728015612587,
+        "punch_landed": 83,
+        "punch_thrown": 117,
+        "aggression_power": 0.275566767547206,
+        "pressure_distance": 0.41691502012428505,
+        "pressure_movement": 0.8093764958509813,
+        "pressure_position": 0.7249554526629385,
+        "punch_thrown_power": 71,
+        "aggression_exchanges": 0.1394362469523831,
+        "aggression_combinations": 0.9453829375865432,
+        "punch_landed_high_impact": 22
+      },
+      {
+        "corner": "blue",
+        "accuracy": 0.8407403329839549,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.7268968294064349,
+        "round_num": 6,
+        "aggression": 0.043213426873320415,
+        "mock_start": 1728015612587,
+        "punch_landed": 87,
+        "punch_thrown": 148,
+        "aggression_power": 0.8656169598152375,
+        "pressure_distance": 0.07609074793872606,
+        "pressure_movement": 0.1303520836842318,
+        "pressure_position": 0.3200399148232984,
+        "punch_thrown_power": 44,
+        "aggression_exchanges": 0.9116526302733534,
+        "aggression_combinations": 0.4310490723939866,
+        "punch_landed_high_impact": 28
+      }
+    ],
+    "punch_combinations": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "uppercut",
+          "uppercut",
+          "jab",
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high",
+          "high",
+          "low",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high",
+          "high",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "uppercut",
+          "uppercut",
+          "hook",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "low",
+          "high",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "cross",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "hook",
+          "cross",
+          "jab",
+          "uppercut",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high",
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "high",
+          "high",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "high",
+          "medium",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "uppercut",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "high",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high",
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "cross",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "hook",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "uppercut",
+          "uppercut",
+          "hook",
+          "hook",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "low",
+          "medium",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "medium",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium",
+          "medium",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "jab",
+          "hook",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "cross",
+          "hook",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "uppercut",
+          "jab",
+          "jab",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low",
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "jab",
+          "hook",
+          "uppercut",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low",
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "uppercut",
+          "jab",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "punch_sequence": [
+          "hook",
+          "jab",
+          "cross",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low",
+          "high",
+          "low"
+        ]
+      }
+    ],
+    "punch_combinations_summary": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "doubles_thrown": 47,
+        "singles_thrown": 86,
+        "triples_thrown": 15,
+        "quads_more_thrown": 4,
+        "doubles_num_punches": 34,
+        "singles_num_punches": 92,
+        "triples_num_punches": 36,
+        "quads_more_num_punches": 35
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 6,
+        "mock_start": 1728015612587,
+        "doubles_thrown": 50,
+        "singles_thrown": 68,
+        "triples_thrown": 9,
+        "quads_more_thrown": 1,
+        "doubles_num_punches": 40,
+        "singles_num_punches": 90,
+        "triples_num_punches": 64,
+        "quads_more_num_punches": 38
+      }
+    ]
+  },
+  {
+    "stance": [
+      {
+        "corner": "red",
+        "squared": 0.01,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.82,
+        "southpaw": 0.17,
+        "round_num": 7,
+        "mock_start": 1728015792587
+      },
+      {
+        "corner": "blue",
+        "squared": 0.12,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.74,
+        "southpaw": 0.14,
+        "round_num": 7,
+        "mock_start": 1728015792587
+      }
+    ],
+    "balance": [
+      {
+        "corner": "red",
+        "neutral": 0.29,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.32,
+        "round_num": 7,
+        "front_foot": 0.39,
+        "mock_start": 1728015792587
+      },
+      {
+        "corner": "blue",
+        "neutral": 0.48,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.28,
+        "round_num": 7,
+        "front_foot": 0.24,
+        "mock_start": 1728015792587
+      }
+    ],
+    "punches": [
+      {
+        "corner": "red",
+        "landed": 34,
+        "thrown": 19,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.18,
+          "max": 0.35,
+          "mid": 0.24,
+          "min": 0.06,
+          "high": 0.17
+        },
+        "power_commit_dist": {
+          "low": 0.11,
+          "max": 0.49,
+          "mid": 0.24,
+          "min": 0.03,
+          "high": 0.13
+        },
+        "landed_quality_dist": {
+          "low": 0.14,
+          "max": 0.28,
+          "mid": 0.34,
+          "min": 0.13,
+          "high": 0.11
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 42,
+        "thrown": 45,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.22,
+          "max": 0.3,
+          "mid": 0.31,
+          "min": 0.02,
+          "high": 0.15
+        },
+        "power_commit_dist": {
+          "low": 0.28,
+          "max": 0.14,
+          "mid": 0.21,
+          "min": 0.15,
+          "high": 0.22
+        },
+        "landed_quality_dist": {
+          "low": 0.1,
+          "max": 0.27,
+          "mid": 0.22,
+          "min": 0.2,
+          "high": 0.21
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 49,
+        "thrown": 86,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.2,
+          "max": 0.18,
+          "mid": 0.34,
+          "min": 0.02,
+          "high": 0.26
+        },
+        "power_commit_dist": {
+          "low": 0.29,
+          "max": 0.09,
+          "mid": 0.35,
+          "min": 0.04,
+          "high": 0.23
+        },
+        "landed_quality_dist": {
+          "low": 0.28,
+          "max": 0.32,
+          "mid": 0.24,
+          "min": 0.03,
+          "high": 0.13
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 41,
+        "thrown": 75,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.3,
+          "max": 0.23,
+          "mid": 0.33,
+          "min": 0.01,
+          "high": 0.13
+        },
+        "power_commit_dist": {
+          "low": 0.21,
+          "max": 0.04,
+          "mid": 0.34,
+          "min": 0.16,
+          "high": 0.25
+        },
+        "landed_quality_dist": {
+          "low": 0.24,
+          "max": 0.13,
+          "mid": 0.34,
+          "min": 0.19,
+          "high": 0.1
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 18,
+        "thrown": 79,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.24,
+          "max": -0.06,
+          "mid": 0.36,
+          "min": 0.2,
+          "high": 0.26
+        },
+        "power_commit_dist": {
+          "low": 0.16,
+          "max": 0.37,
+          "mid": 0.23,
+          "min": 0.1,
+          "high": 0.14
+        },
+        "landed_quality_dist": {
+          "low": 0.12,
+          "max": 0.41,
+          "mid": 0.23,
+          "min": 0.07,
+          "high": 0.17
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 8,
+        "thrown": 51,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.22,
+          "max": 0.06,
+          "mid": 0.32,
+          "min": 0.12,
+          "high": 0.28
+        },
+        "power_commit_dist": {
+          "low": 0.12,
+          "max": 0.2,
+          "mid": 0.4,
+          "min": 0.15,
+          "high": 0.13
+        },
+        "landed_quality_dist": {
+          "low": 0.26,
+          "max": 0.16,
+          "mid": 0.39,
+          "min": 0,
+          "high": 0.19
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 48,
+        "thrown": 18,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.16,
+          "max": 0.17,
+          "mid": 0.22,
+          "min": 0.16,
+          "high": 0.29
+        },
+        "power_commit_dist": {
+          "low": 0.1,
+          "max": 0.26,
+          "mid": 0.28,
+          "min": 0.17,
+          "high": 0.19
+        },
+        "landed_quality_dist": {
+          "low": 0.28,
+          "max": 0.26,
+          "mid": 0.22,
+          "min": 0.01,
+          "high": 0.23
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 8,
+        "thrown": 27,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.14,
+          "max": 0.29,
+          "mid": 0.28,
+          "min": 0.16,
+          "high": 0.13
+        },
+        "power_commit_dist": {
+          "low": 0.26,
+          "max": 0.2,
+          "mid": 0.25,
+          "min": 0.09,
+          "high": 0.2
+        },
+        "landed_quality_dist": {
+          "low": 0.23,
+          "max": 0.09,
+          "mid": 0.39,
+          "min": 0.17,
+          "high": 0.12
+        }
+      }
+    ],
+    "distance": [
+      {
+        "clinch": 0.12,
+        "corner": "red",
+        "inside": 0.27,
+        "outside": 0.16,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.45,
+        "round_num": 7,
+        "mock_start": 1728015792587
+      },
+      {
+        "clinch": 0.17,
+        "corner": "blue",
+        "inside": 0.35,
+        "outside": 0.04,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.44,
+        "round_num": 7,
+        "mock_start": 1728015792587
+      }
+    ],
+    "predictions": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "prediction": "lose",
+        "points_total": 19.654937161086107,
+        "points_impact": 3.5097252262469247,
+        "win_dominance": 0.014623070303805052,
+        "win_confidence": 0.5638881242977021,
+        "points_pressure": 2.317486779486917,
+        "points_aggression": 5.456724640348742,
+        "avg_impact_points_per_landed": 0.17659816349063107,
+        "avg_impact_points_per_thrown": 2.5773512514337167
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "prediction": "draw",
+        "points_total": 13.267233965066632,
+        "points_impact": 9.442537902144164,
+        "win_dominance": 0.38410203199683646,
+        "win_confidence": 0.4512063204568515,
+        "points_pressure": 9.971073625378091,
+        "points_aggression": 9.099862845925541,
+        "avg_impact_points_per_landed": 4.805155955025787,
+        "avg_impact_points_per_thrown": 2.02160886535922
+      }
+    ],
+    "rounds_info": [
+      {
+        "status": "active",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587
+      }
+    ],
+    "stats_summary": [
+      {
+        "corner": "red",
+        "accuracy": 0.3166178518611713,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.338380271205021,
+        "round_num": 7,
+        "aggression": 0.02512955473863343,
+        "mock_start": 1728015792587,
+        "punch_landed": 96,
+        "punch_thrown": 177,
+        "aggression_power": 0.7120631581706054,
+        "pressure_distance": 0.8642436553904074,
+        "pressure_movement": 0.7576293099787104,
+        "pressure_position": 0.7038305592193403,
+        "punch_thrown_power": 78,
+        "aggression_exchanges": 0.5776093027758542,
+        "aggression_combinations": 0.5667160481523001,
+        "punch_landed_high_impact": 11
+      },
+      {
+        "corner": "blue",
+        "accuracy": 0.07053286390705682,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.9758028275476445,
+        "round_num": 7,
+        "aggression": 0.4020793207869118,
+        "mock_start": 1728015792587,
+        "punch_landed": 54,
+        "punch_thrown": 189,
+        "aggression_power": 0.975590460813174,
+        "pressure_distance": 0.6380102203017821,
+        "pressure_movement": 0.7616865152510559,
+        "pressure_position": 0.5767239267249624,
+        "punch_thrown_power": 46,
+        "aggression_exchanges": 0.40567927741238763,
+        "aggression_combinations": 0.4361477025222542,
+        "punch_landed_high_impact": 38
+      }
+    ],
+    "punch_combinations": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_sequence": [
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_sequence": [
+          "hook",
+          "cross",
+          "jab",
+          "uppercut",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium",
+          "high",
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_sequence": [
+          "hook",
+          "uppercut",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_sequence": [
+          "hook",
+          "hook",
+          "cross",
+          "hook",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "high",
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "low",
+          "low",
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium",
+          "high",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_sequence": [
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_sequence": [
+          "hook",
+          "jab",
+          "jab",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "cross",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "low",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low",
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_sequence": [
+          "hook",
+          "hook",
+          "cross",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "low",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "high",
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_sequence": [
+          "uppercut",
+          "jab",
+          "hook",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "medium",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "punch_sequence": [
+          "uppercut",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium"
+        ]
+      }
+    ],
+    "punch_combinations_summary": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "doubles_thrown": 23,
+        "singles_thrown": 92,
+        "triples_thrown": 21,
+        "quads_more_thrown": 9,
+        "doubles_num_punches": 70,
+        "singles_num_punches": 34,
+        "triples_num_punches": 21,
+        "quads_more_num_punches": 21
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 7,
+        "mock_start": 1728015792587,
+        "doubles_thrown": 42,
+        "singles_thrown": 81,
+        "triples_thrown": 20,
+        "quads_more_thrown": 1,
+        "doubles_num_punches": 53,
+        "singles_num_punches": 74,
+        "triples_num_punches": 60,
+        "quads_more_num_punches": 5
+      }
+    ]
+  },
+  {
+    "stance": [
+      {
+        "corner": "red",
+        "squared": 0.13,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.71,
+        "southpaw": 0.16,
+        "round_num": 8,
+        "mock_start": 1728015972587
+      },
+      {
+        "corner": "blue",
+        "squared": 0.18,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.73,
+        "southpaw": 0.09,
+        "round_num": 8,
+        "mock_start": 1728015972587
+      }
+    ],
+    "balance": [
+      {
+        "corner": "red",
+        "neutral": 0.41,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.21,
+        "round_num": 8,
+        "front_foot": 0.38,
+        "mock_start": 1728015972587
+      },
+      {
+        "corner": "blue",
+        "neutral": 0.43,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.27,
+        "round_num": 8,
+        "front_foot": 0.3,
+        "mock_start": 1728015972587
+      }
+    ],
+    "punches": [
+      {
+        "corner": "red",
+        "landed": 9,
+        "thrown": 82,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.17,
+          "max": 0.3,
+          "mid": 0.24,
+          "min": 0.11,
+          "high": 0.18
+        },
+        "power_commit_dist": {
+          "low": 0.25,
+          "max": 0.24,
+          "mid": 0.37,
+          "min": 0.01,
+          "high": 0.13
+        },
+        "landed_quality_dist": {
+          "low": 0.16,
+          "max": 0.24,
+          "mid": 0.39,
+          "min": 0.07,
+          "high": 0.14
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 45,
+        "thrown": 66,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.15,
+          "max": 0.26,
+          "mid": 0.29,
+          "min": 0.13,
+          "high": 0.17
+        },
+        "power_commit_dist": {
+          "low": 0.24,
+          "max": 0.39,
+          "mid": 0.23,
+          "min": 0.02,
+          "high": 0.12
+        },
+        "landed_quality_dist": {
+          "low": 0.11,
+          "max": 0.17,
+          "mid": 0.39,
+          "min": 0.07,
+          "high": 0.26
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 12,
+        "thrown": 18,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.18,
+          "max": 0.4,
+          "mid": 0.2,
+          "min": 0.09,
+          "high": 0.13
+        },
+        "power_commit_dist": {
+          "low": 0.16,
+          "max": 0.29,
+          "mid": 0.24,
+          "min": 0.11,
+          "high": 0.2
+        },
+        "landed_quality_dist": {
+          "low": 0.12,
+          "max": 0.27,
+          "mid": 0.33,
+          "min": 0.11,
+          "high": 0.17
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 14,
+        "thrown": 50,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.24,
+          "max": 0.2,
+          "mid": 0.26,
+          "min": 0.12,
+          "high": 0.18
+        },
+        "power_commit_dist": {
+          "low": 0.3,
+          "max": 0.36,
+          "mid": 0.2,
+          "min": 0.04,
+          "high": 0.1
+        },
+        "landed_quality_dist": {
+          "low": 0.27,
+          "max": 0.13,
+          "mid": 0.3,
+          "min": 0.01,
+          "high": 0.29
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 14,
+        "thrown": 91,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.13,
+          "max": 0.2,
+          "mid": 0.25,
+          "min": 0.18,
+          "high": 0.24
+        },
+        "power_commit_dist": {
+          "low": 0.21,
+          "max": 0.31,
+          "mid": 0.32,
+          "min": 0.02,
+          "high": 0.14
+        },
+        "landed_quality_dist": {
+          "low": 0.25,
+          "max": 0.34,
+          "mid": 0.28,
+          "min": 0,
+          "high": 0.13
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 12,
+        "thrown": 78,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.22,
+          "max": 0.13,
+          "mid": 0.25,
+          "min": 0.17,
+          "high": 0.23
+        },
+        "power_commit_dist": {
+          "low": 0.28,
+          "max": 0.24,
+          "mid": 0.26,
+          "min": 0.11,
+          "high": 0.11
+        },
+        "landed_quality_dist": {
+          "low": 0.2,
+          "max": 0.19,
+          "mid": 0.26,
+          "min": 0.13,
+          "high": 0.22
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 23,
+        "thrown": 36,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.12,
+          "max": 0.16,
+          "mid": 0.38,
+          "min": 0.11,
+          "high": 0.23
+        },
+        "power_commit_dist": {
+          "low": 0.1,
+          "max": 0.07,
+          "mid": 0.4,
+          "min": 0.2,
+          "high": 0.23
+        },
+        "landed_quality_dist": {
+          "low": 0.19,
+          "max": 0.12,
+          "mid": 0.31,
+          "min": 0.13,
+          "high": 0.25
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 39,
+        "thrown": 11,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.13,
+          "max": 0.19,
+          "mid": 0.36,
+          "min": 0.11,
+          "high": 0.21
+        },
+        "power_commit_dist": {
+          "low": 0.1,
+          "max": 0.26,
+          "mid": 0.26,
+          "min": 0.17,
+          "high": 0.21
+        },
+        "landed_quality_dist": {
+          "low": 0.12,
+          "max": 0.37,
+          "mid": 0.35,
+          "min": 0.05,
+          "high": 0.11
+        }
+      }
+    ],
+    "distance": [
+      {
+        "clinch": 0.13,
+        "corner": "red",
+        "inside": 0.39,
+        "outside": -0.01,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.49,
+        "round_num": 8,
+        "mock_start": 1728015972587
+      },
+      {
+        "clinch": 0.05,
+        "corner": "blue",
+        "inside": 0.28,
+        "outside": 0.17,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.5,
+        "round_num": 8,
+        "mock_start": 1728015972587
+      }
+    ],
+    "predictions": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "prediction": "lose",
+        "points_total": 11.162821973034667,
+        "points_impact": 4.701006820574669,
+        "win_dominance": 0.028868344693625758,
+        "win_confidence": 0.38303938745189625,
+        "points_pressure": 4.017344114682286,
+        "points_aggression": 2.856643913070127,
+        "avg_impact_points_per_landed": 4.171764309593094,
+        "avg_impact_points_per_thrown": 2.331943605960684
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "prediction": "lose",
+        "points_total": 14.188219924013836,
+        "points_impact": 4.6836458470017845,
+        "win_dominance": 0.5313188927860839,
+        "win_confidence": 0.10631931841572251,
+        "points_pressure": 8.448459319380248,
+        "points_aggression": 2.8642360596351146,
+        "avg_impact_points_per_landed": 2.7587485317355442,
+        "avg_impact_points_per_thrown": 1.6706366750827812
+      }
+    ],
+    "rounds_info": [
+      {
+        "status": "active",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587
+      }
+    ],
+    "stats_summary": [
+      {
+        "corner": "red",
+        "accuracy": 0.11688281519477561,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.5200188338413527,
+        "round_num": 8,
+        "aggression": 0.488687745516466,
+        "mock_start": 1728015972587,
+        "punch_landed": 100,
+        "punch_thrown": 171,
+        "aggression_power": 0.7576072796583495,
+        "pressure_distance": 0.2267853612497681,
+        "pressure_movement": 0.22837668909019881,
+        "pressure_position": 0.08784140181656075,
+        "punch_thrown_power": 92,
+        "aggression_exchanges": 0.3857214154053026,
+        "aggression_combinations": 0.8745191987089169,
+        "punch_landed_high_impact": 14
+      },
+      {
+        "corner": "blue",
+        "accuracy": 0.3060638441339776,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.3352719379999465,
+        "round_num": 8,
+        "aggression": 0.21731407833485283,
+        "mock_start": 1728015972587,
+        "punch_landed": 66,
+        "punch_thrown": 111,
+        "aggression_power": 0.33337196751641507,
+        "pressure_distance": 0.3972961181835801,
+        "pressure_movement": 0.33985154674480755,
+        "pressure_position": 0.3355205540156412,
+        "punch_thrown_power": 20,
+        "aggression_exchanges": 0.8632669011260776,
+        "aggression_combinations": 0.28652896761579827,
+        "punch_landed_high_impact": 41
+      }
+    ],
+    "punch_combinations": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "cross",
+          "uppercut",
+          "cross",
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low",
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium",
+          "high",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high",
+          "high",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "jab",
+          "uppercut",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "jab",
+          "hook",
+          "hook",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "uppercut",
+          "cross",
+          "cross",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high",
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "hook",
+          "cross",
+          "uppercut",
+          "cross",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "medium",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium",
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high",
+          "high",
+          "high",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "jab",
+          "jab",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "uppercut",
+          "jab",
+          "cross",
+          "jab",
+          "jab"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "high",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "medium",
+          "high",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low",
+          "high",
+          "high",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "cross",
+          "hook",
+          "uppercut",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "high",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "hook",
+          "uppercut",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "low",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "uppercut",
+          "cross",
+          "cross",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low",
+          "high",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "jab",
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "jab",
+          "jab",
+          "uppercut",
+          "uppercut",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium",
+          "low",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "medium",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "cross",
+          "hook",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "punch_sequence": [
+          "hook",
+          "jab",
+          "uppercut",
+          "hook",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium",
+          "high",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "high",
+          "low",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "medium",
+          "high",
+          "high",
+          "high"
+        ]
+      }
+    ],
+    "punch_combinations_summary": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "doubles_thrown": 22,
+        "singles_thrown": 43,
+        "triples_thrown": 18,
+        "quads_more_thrown": 9,
+        "doubles_num_punches": 38,
+        "singles_num_punches": 46,
+        "triples_num_punches": 32,
+        "quads_more_num_punches": 15
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 8,
+        "mock_start": 1728015972587,
+        "doubles_thrown": 43,
+        "singles_thrown": 39,
+        "triples_thrown": 23,
+        "quads_more_thrown": 8,
+        "doubles_num_punches": 80,
+        "singles_num_punches": 30,
+        "triples_num_punches": 23,
+        "quads_more_num_punches": 1
+      }
+    ]
+  },
+  {
+    "stance": [
+      {
+        "corner": "red",
+        "squared": 0.13,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.72,
+        "southpaw": 0.15,
+        "round_num": 9,
+        "mock_start": 1728016152587
+      },
+      {
+        "corner": "blue",
+        "squared": 0.2,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.65,
+        "southpaw": 0.15,
+        "round_num": 9,
+        "mock_start": 1728016152587
+      }
+    ],
+    "balance": [
+      {
+        "corner": "red",
+        "neutral": 0.43,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.31,
+        "round_num": 9,
+        "front_foot": 0.26,
+        "mock_start": 1728016152587
+      },
+      {
+        "corner": "blue",
+        "neutral": 0.43,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.21,
+        "round_num": 9,
+        "front_foot": 0.36,
+        "mock_start": 1728016152587
+      }
+    ],
+    "punches": [
+      {
+        "corner": "red",
+        "landed": 47,
+        "thrown": 55,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.2,
+          "max": 0.21,
+          "mid": 0.23,
+          "min": 0.08,
+          "high": 0.28
+        },
+        "power_commit_dist": {
+          "low": 0.21,
+          "max": 0.3,
+          "mid": 0.36,
+          "min": 0.01,
+          "high": 0.12
+        },
+        "landed_quality_dist": {
+          "low": 0.14,
+          "max": 0.13,
+          "mid": 0.38,
+          "min": 0.13,
+          "high": 0.22
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 46,
+        "thrown": 70,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.16,
+          "max": 0.23,
+          "mid": 0.24,
+          "min": 0.18,
+          "high": 0.19
+        },
+        "power_commit_dist": {
+          "low": 0.23,
+          "max": 0.08,
+          "mid": 0.31,
+          "min": 0.18,
+          "high": 0.2
+        },
+        "landed_quality_dist": {
+          "low": 0.14,
+          "max": 0.54,
+          "mid": 0.21,
+          "min": 0,
+          "high": 0.11
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 41,
+        "thrown": 28,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.1,
+          "max": 0.24,
+          "mid": 0.22,
+          "min": 0.19,
+          "high": 0.25
+        },
+        "power_commit_dist": {
+          "low": 0.23,
+          "max": 0.09,
+          "mid": 0.31,
+          "min": 0.2,
+          "high": 0.17
+        },
+        "landed_quality_dist": {
+          "low": 0.15,
+          "max": 0.21,
+          "mid": 0.37,
+          "min": 0,
+          "high": 0.27
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 5,
+        "thrown": 82,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.26,
+          "max": 0.13,
+          "mid": 0.33,
+          "min": 0.14,
+          "high": 0.14
+        },
+        "power_commit_dist": {
+          "low": 0.3,
+          "max": 0.23,
+          "mid": 0.22,
+          "min": 0.12,
+          "high": 0.13
+        },
+        "landed_quality_dist": {
+          "low": 0.24,
+          "max": 0.12,
+          "mid": 0.32,
+          "min": 0.09,
+          "high": 0.23
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 26,
+        "thrown": 22,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.28,
+          "max": 0.05,
+          "mid": 0.39,
+          "min": 0.14,
+          "high": 0.14
+        },
+        "power_commit_dist": {
+          "low": 0.17,
+          "max": 0.37,
+          "mid": 0.2,
+          "min": 0.05,
+          "high": 0.21
+        },
+        "landed_quality_dist": {
+          "low": 0.27,
+          "max": 0.18,
+          "mid": 0.28,
+          "min": 0.01,
+          "high": 0.26
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 11,
+        "thrown": 27,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.16,
+          "max": 0.41,
+          "mid": 0.24,
+          "min": 0.03,
+          "high": 0.16
+        },
+        "power_commit_dist": {
+          "low": 0.29,
+          "max": 0.08,
+          "mid": 0.33,
+          "min": 0.02,
+          "high": 0.28
+        },
+        "landed_quality_dist": {
+          "low": 0.11,
+          "max": 0.39,
+          "mid": 0.32,
+          "min": 0,
+          "high": 0.18
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 30,
+        "thrown": 79,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.11,
+          "max": 0.45,
+          "mid": 0.2,
+          "min": 0.09,
+          "high": 0.15
+        },
+        "power_commit_dist": {
+          "low": 0.16,
+          "max": 0.19,
+          "mid": 0.33,
+          "min": 0.2,
+          "high": 0.12
+        },
+        "landed_quality_dist": {
+          "low": 0.11,
+          "max": 0.41,
+          "mid": 0.21,
+          "min": 0.17,
+          "high": 0.1
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 12,
+        "thrown": 31,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.12,
+          "max": 0.41,
+          "mid": 0.22,
+          "min": 0.05,
+          "high": 0.2
+        },
+        "power_commit_dist": {
+          "low": 0.11,
+          "max": 0.28,
+          "mid": 0.23,
+          "min": 0.12,
+          "high": 0.26
+        },
+        "landed_quality_dist": {
+          "low": 0.23,
+          "max": 0.21,
+          "mid": 0.2,
+          "min": 0.07,
+          "high": 0.29
+        }
+      }
+    ],
+    "distance": [
+      {
+        "clinch": 0.15,
+        "corner": "red",
+        "inside": 0.35,
+        "outside": 0.12,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.38,
+        "round_num": 9,
+        "mock_start": 1728016152587
+      },
+      {
+        "clinch": 0.05,
+        "corner": "blue",
+        "inside": 0.2,
+        "outside": 0.28,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.47,
+        "round_num": 9,
+        "mock_start": 1728016152587
+      }
+    ],
+    "predictions": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "prediction": "draw",
+        "points_total": 3.6562723277281917,
+        "points_impact": 4.331573304187577,
+        "win_dominance": 0.4562730588101098,
+        "win_confidence": 0.7467719088236944,
+        "points_pressure": 6.491960341342247,
+        "points_aggression": 7.686621981769219,
+        "avg_impact_points_per_landed": 2.0677293804144914,
+        "avg_impact_points_per_thrown": 0.3753585056058506
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "prediction": "lose",
+        "points_total": 13.32676445473296,
+        "points_impact": 3.5714698793348676,
+        "win_dominance": 0.8125906150311322,
+        "win_confidence": 0.5154034686935405,
+        "points_pressure": 2.6921253648310417,
+        "points_aggression": 0.4302612079862156,
+        "avg_impact_points_per_landed": 4.577840242849545,
+        "avg_impact_points_per_thrown": 2.717684167464074
+      }
+    ],
+    "rounds_info": [
+      {
+        "status": "active",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587
+      }
+    ],
+    "stats_summary": [
+      {
+        "corner": "red",
+        "accuracy": 0.938473342782931,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.83385646895877,
+        "round_num": 9,
+        "aggression": 0.5964041424349797,
+        "mock_start": 1728016152587,
+        "punch_landed": 46,
+        "punch_thrown": 61,
+        "aggression_power": 0.7924164360361803,
+        "pressure_distance": 0.1559524798082932,
+        "pressure_movement": 0.972413067901408,
+        "pressure_position": 0.21071456881620065,
+        "punch_thrown_power": 47,
+        "aggression_exchanges": 0.0798654000922645,
+        "aggression_combinations": 0.017128399079484158,
+        "punch_landed_high_impact": 9
+      },
+      {
+        "corner": "blue",
+        "accuracy": 0.8588294493325725,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.6974138688528406,
+        "round_num": 9,
+        "aggression": 0.8376206578880749,
+        "mock_start": 1728016152587,
+        "punch_landed": 42,
+        "punch_thrown": 108,
+        "aggression_power": 0.2845715925640553,
+        "pressure_distance": 0.2200678298362997,
+        "pressure_movement": 0.9169403763429871,
+        "pressure_position": 0.7745047904015516,
+        "punch_thrown_power": 39,
+        "aggression_exchanges": 0.4587401258773194,
+        "aggression_combinations": 0.7031443983781998,
+        "punch_landed_high_impact": 29
+      }
+    ],
+    "punch_combinations": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_sequence": [
+          "cross",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_sequence": [
+          "uppercut",
+          "jab",
+          "uppercut",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "medium",
+          "high",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium",
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_sequence": [
+          "jab",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_sequence": [
+          "jab",
+          "cross",
+          "uppercut",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "low",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "low",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_sequence": [
+          "uppercut",
+          "jab",
+          "hook",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "low",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium",
+          "high",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_sequence": [
+          "jab",
+          "uppercut",
+          "cross",
+          "cross",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low",
+          "medium",
+          "low",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "medium",
+          "low",
+          "high",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium",
+          "high",
+          "medium",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_sequence": [
+          "uppercut",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_sequence": [
+          "hook",
+          "jab",
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_sequence": [
+          "jab",
+          "cross",
+          "jab",
+          "cross",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "low",
+          "medium",
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "low",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "high",
+          "low",
+          "high",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "punch_sequence": [
+          "hook",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "medium"
+        ]
+      }
+    ],
+    "punch_combinations_summary": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "doubles_thrown": 45,
+        "singles_thrown": 65,
+        "triples_thrown": 24,
+        "quads_more_thrown": 5,
+        "doubles_num_punches": 98,
+        "singles_num_punches": 84,
+        "triples_num_punches": 22,
+        "quads_more_num_punches": 23
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 9,
+        "mock_start": 1728016152587,
+        "doubles_thrown": 22,
+        "singles_thrown": 85,
+        "triples_thrown": 8,
+        "quads_more_thrown": 5,
+        "doubles_num_punches": 82,
+        "singles_num_punches": 44,
+        "triples_num_punches": 61,
+        "quads_more_num_punches": 28
+      }
+    ]
+  },
+  {
+    "stance": [
+      {
+        "corner": "red",
+        "squared": 0.16,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.76,
+        "southpaw": 0.08,
+        "round_num": 10,
+        "mock_start": 1728016332587
+      },
+      {
+        "corner": "blue",
+        "squared": -0.01,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "orthodox": 0.85,
+        "southpaw": 0.16,
+        "round_num": 10,
+        "mock_start": 1728016332587
+      }
+    ],
+    "balance": [
+      {
+        "corner": "red",
+        "neutral": 0.37,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.4,
+        "round_num": 10,
+        "front_foot": 0.23,
+        "mock_start": 1728016332587
+      },
+      {
+        "corner": "blue",
+        "neutral": 0.32,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "back_foot": 0.37,
+        "round_num": 10,
+        "front_foot": 0.31,
+        "mock_start": 1728016332587
+      }
+    ],
+    "punches": [
+      {
+        "corner": "red",
+        "landed": 41,
+        "thrown": 82,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.3,
+          "max": 0.12,
+          "mid": 0.34,
+          "min": 0.11,
+          "high": 0.13
+        },
+        "power_commit_dist": {
+          "low": 0.23,
+          "max": 0.21,
+          "mid": 0.34,
+          "min": 0.12,
+          "high": 0.1
+        },
+        "landed_quality_dist": {
+          "low": 0.25,
+          "max": 0.19,
+          "mid": 0.27,
+          "min": 0.14,
+          "high": 0.15
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 13,
+        "thrown": 98,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.19,
+          "max": 0.12,
+          "mid": 0.29,
+          "min": 0.17,
+          "high": 0.23
+        },
+        "power_commit_dist": {
+          "low": 0.16,
+          "max": 0.38,
+          "mid": 0.26,
+          "min": 0.08,
+          "high": 0.12
+        },
+        "landed_quality_dist": {
+          "low": 0.26,
+          "max": 0.08,
+          "mid": 0.38,
+          "min": 0.12,
+          "high": 0.16
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 48,
+        "thrown": 26,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.28,
+          "max": -0.01,
+          "mid": 0.4,
+          "min": 0.03,
+          "high": 0.3
+        },
+        "power_commit_dist": {
+          "low": 0.11,
+          "max": 0.33,
+          "mid": 0.26,
+          "min": 0.02,
+          "high": 0.28
+        },
+        "landed_quality_dist": {
+          "low": 0.18,
+          "max": 0.42,
+          "mid": 0.21,
+          "min": 0.03,
+          "high": 0.16
+        }
+      },
+      {
+        "corner": "red",
+        "landed": 12,
+        "thrown": 96,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.17,
+          "max": 0.14,
+          "mid": 0.36,
+          "min": 0.2,
+          "high": 0.13
+        },
+        "power_commit_dist": {
+          "low": 0.28,
+          "max": 0.12,
+          "mid": 0.34,
+          "min": 0.02,
+          "high": 0.24
+        },
+        "landed_quality_dist": {
+          "low": 0.23,
+          "max": 0.11,
+          "mid": 0.24,
+          "min": 0.15,
+          "high": 0.27
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 6,
+        "thrown": 67,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_type": "jab",
+        "impact_dist": {
+          "low": 0.26,
+          "max": 0.24,
+          "mid": 0.2,
+          "min": 0.11,
+          "high": 0.19
+        },
+        "power_commit_dist": {
+          "low": 0.16,
+          "max": 0.17,
+          "mid": 0.26,
+          "min": 0.15,
+          "high": 0.26
+        },
+        "landed_quality_dist": {
+          "low": 0.15,
+          "max": 0.27,
+          "mid": 0.3,
+          "min": 0.1,
+          "high": 0.18
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 28,
+        "thrown": 57,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_type": "cross",
+        "impact_dist": {
+          "low": 0.13,
+          "max": 0.28,
+          "mid": 0.24,
+          "min": 0.08,
+          "high": 0.27
+        },
+        "power_commit_dist": {
+          "low": 0.1,
+          "max": 0.19,
+          "mid": 0.31,
+          "min": 0.13,
+          "high": 0.27
+        },
+        "landed_quality_dist": {
+          "low": 0.1,
+          "max": 0.14,
+          "mid": 0.38,
+          "min": 0.2,
+          "high": 0.18
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 9,
+        "thrown": 96,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_type": "hook",
+        "impact_dist": {
+          "low": 0.12,
+          "max": 0.2,
+          "mid": 0.34,
+          "min": 0.11,
+          "high": 0.23
+        },
+        "power_commit_dist": {
+          "low": 0.13,
+          "max": 0.16,
+          "mid": 0.28,
+          "min": 0.17,
+          "high": 0.26
+        },
+        "landed_quality_dist": {
+          "low": 0.28,
+          "max": 0.26,
+          "mid": 0.27,
+          "min": 0.09,
+          "high": 0.1
+        }
+      },
+      {
+        "corner": "blue",
+        "landed": 13,
+        "thrown": 45,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_type": "uppercut",
+        "impact_dist": {
+          "low": 0.17,
+          "max": 0.26,
+          "mid": 0.29,
+          "min": 0.09,
+          "high": 0.19
+        },
+        "power_commit_dist": {
+          "low": 0.14,
+          "max": 0.22,
+          "mid": 0.32,
+          "min": 0.03,
+          "high": 0.29
+        },
+        "landed_quality_dist": {
+          "low": 0.15,
+          "max": 0.27,
+          "mid": 0.28,
+          "min": 0.19,
+          "high": 0.11
+        }
+      }
+    ],
+    "distance": [
+      {
+        "clinch": 0.17,
+        "corner": "red",
+        "inside": 0.27,
+        "outside": 0.21,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.35,
+        "round_num": 10,
+        "mock_start": 1728016332587
+      },
+      {
+        "clinch": 0.14,
+        "corner": "blue",
+        "inside": 0.34,
+        "outside": 0.18,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "mid_range": 0.34,
+        "round_num": 10,
+        "mock_start": 1728016332587
+      }
+    ],
+    "predictions": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "prediction": "lose",
+        "points_total": 4.149309486038392,
+        "points_impact": 6.266655426003118,
+        "win_dominance": 0.8673408867337296,
+        "win_confidence": 0.3081484799767593,
+        "points_pressure": 5.21014023768501,
+        "points_aggression": 6.892679861064557,
+        "avg_impact_points_per_landed": 2.1183728324091566,
+        "avg_impact_points_per_thrown": 0.33384229415642697
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "prediction": "draw",
+        "points_total": 12.876163645854309,
+        "points_impact": 4.909401353671006,
+        "win_dominance": 0.06278278802238213,
+        "win_confidence": 0.30989973205526167,
+        "points_pressure": 3.739700583019092,
+        "points_aggression": 4.7967267537551646,
+        "avg_impact_points_per_landed": 2.371152853528977,
+        "avg_impact_points_per_thrown": 0.4850021660138282
+      }
+    ],
+    "rounds_info": [
+      {
+        "status": "active",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587
+      }
+    ],
+    "stats_summary": [
+      {
+        "corner": "red",
+        "accuracy": 0.9546604921937192,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.24837361023628923,
+        "round_num": 10,
+        "aggression": 0.4114732389890048,
+        "mock_start": 1728016332587,
+        "punch_landed": 76,
+        "punch_thrown": 104,
+        "aggression_power": 0.6305902036977804,
+        "pressure_distance": 0.17912729975105646,
+        "pressure_movement": 0.045494806915753694,
+        "pressure_position": 0.883169861702739,
+        "punch_thrown_power": 83,
+        "aggression_exchanges": 0.26721999759258774,
+        "aggression_combinations": 0.8828299637889667,
+        "punch_landed_high_impact": 25
+      },
+      {
+        "corner": "blue",
+        "accuracy": 0.07775052176088626,
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "pressure": 0.4067278779907657,
+        "round_num": 10,
+        "aggression": 0.5060843629623264,
+        "mock_start": 1728016332587,
+        "punch_landed": 54,
+        "punch_thrown": 175,
+        "aggression_power": 0.3263364252271952,
+        "pressure_distance": 0.4800486869389471,
+        "pressure_movement": 0.24554767280476697,
+        "pressure_position": 0.3027373597585583,
+        "punch_thrown_power": 60,
+        "aggression_exchanges": 0.5029020840961258,
+        "aggression_combinations": 0.5462788348694703,
+        "punch_landed_high_impact": 35
+      }
+    ],
+    "punch_combinations": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_sequence": [
+          "jab",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_sequence": [
+          "hook",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_sequence": [
+          "hook",
+          "cross",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "high",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "low",
+          "high"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_sequence": [
+          "cross",
+          "cross",
+          "cross"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "high",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_sequence": [
+          "cross",
+          "jab",
+          "cross",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "high",
+          "high",
+          "low",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "medium",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium",
+          "high",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_sequence": [
+          "hook",
+          "uppercut",
+          "cross",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high",
+          "medium",
+          "high"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "low",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "low",
+          "low",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_sequence": [
+          "cross",
+          "uppercut"
+        ],
+        "punch_sequence_impact_props": [
+          "low",
+          "low"
+        ],
+        "punch_sequence_quality_props": [
+          "low",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "high",
+          "medium"
+        ]
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "punch_sequence": [
+          "cross",
+          "hook",
+          "hook"
+        ],
+        "punch_sequence_impact_props": [
+          "medium",
+          "high",
+          "medium"
+        ],
+        "punch_sequence_quality_props": [
+          "medium",
+          "high",
+          "low"
+        ],
+        "punch_sequence_power_commit_props": [
+          "medium",
+          "low",
+          "low"
+        ]
+      }
+    ],
+    "punch_combinations_summary": [
+      {
+        "corner": "red",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "doubles_thrown": 23,
+        "singles_thrown": 65,
+        "triples_thrown": 6,
+        "quads_more_thrown": 2,
+        "doubles_num_punches": 83,
+        "singles_num_punches": 85,
+        "triples_num_punches": 58,
+        "quads_more_num_punches": 30
+      },
+      {
+        "corner": "blue",
+        "match_id": "eea22b27-90dd-4d15-9b14-6d0fd30b99c7",
+        "round_num": 10,
+        "mock_start": 1728016332587,
+        "doubles_thrown": 29,
+        "singles_thrown": 87,
+        "triples_thrown": 22,
+        "quads_more_thrown": 0,
+        "doubles_num_punches": 47,
+        "singles_num_punches": 74,
+        "triples_num_punches": 28,
+        "quads_more_num_punches": 6
+      }
+    ]
+  }
+]

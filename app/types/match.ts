@@ -17,6 +17,8 @@ export interface FightInfo {
   cancelled: boolean;
   started: boolean;
   started_at: number | null;
+  mock_start: number;
+  fightId: string;
 }
 
 export interface Match {
@@ -36,12 +38,13 @@ export interface MatchesResponse {
 export interface CreateMatchRequest {
   fight_settings: FightSettings;
   fight_info: FightInfo;
+  round_stats: RoundStats[];
 }
 
 // ... existing types
 
 export interface Prediction {
-  match_id: number;
+  match_id: string;
   round_num: number;
   corner: "red" | "blue";
   points_aggression: number;
@@ -56,13 +59,14 @@ export interface Prediction {
 }
 
 export interface RoundInfo {
-  match_id: number;
+  match_id: string;
   round_num: number;
   status: "active" | "completed" | "upcoming";
+  mock_start: number;
 }
 
 export interface StatsSummary {
-  match_id: number;
+  match_id: string;
   round_num: number;
   corner: "red" | "blue";
   accuracy: number;
@@ -81,7 +85,7 @@ export interface StatsSummary {
 }
 
 export interface Balance {
-  match_id: number;
+  match_id: string;
   round_num: number;
   corner: "red" | "blue";
   back_foot: number;
@@ -90,7 +94,7 @@ export interface Balance {
 }
 
 export interface Distance {
-  match_id: number;
+  match_id: string;
   round_num: number;
   corner: "red" | "blue";
   clinch: number;
@@ -100,7 +104,7 @@ export interface Distance {
 }
 
 export interface Stance {
-  match_id: number;
+  match_id: string;
   round_num: number;
   corner: "red" | "blue";
   orthodox: number;
@@ -109,7 +113,7 @@ export interface Stance {
 }
 
 export interface PunchCombinationsSummary {
-  match_id: number;
+  match_id: string;
   round_num: number;
   corner: "red" | "blue";
   singles_thrown: number;
@@ -131,7 +135,7 @@ export interface Distribution {
 }
 
 export interface Punch {
-  match_id: number;
+  match_id: string;
   round_num: number;
   corner: "red" | "blue";
   punch_type: string;
@@ -143,7 +147,7 @@ export interface Punch {
 }
 
 export interface PunchCombination {
-  match_id: number;
+  match_id: string;
   round_num: number;
   corner: "red" | "blue";
   punch_sequence: string[];

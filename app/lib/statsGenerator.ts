@@ -56,11 +56,12 @@ function generateQualityProps(length: number): string[] {
   return Array(length)
     .fill(null)
     .map(() => qualities[randomInt(0, 2)]);
-}
+} 
 
 export function generateRoundStats(
-  matchId: number,
-  roundNum: number
+  matchId: string,
+  roundNum: number,
+  startTime: number
 ): RoundStats {
   const corners: ("red" | "blue")[] = ["red", "blue"];
 
@@ -77,7 +78,8 @@ export function generateRoundStats(
     prediction:
       Math.random() > 0.6 ? "win" : Math.random() > 0.3 ? "lose" : "draw",
     avg_impact_points_per_landed: randomFloat(0, 5),
-    avg_impact_points_per_thrown: randomFloat(0, 3),
+    avg_impact_points_per_thrown: randomFloat(0, 3), 
+    mock_start: startTime,
   }));
 
   const rounds_info: RoundInfo[] = [
@@ -85,6 +87,7 @@ export function generateRoundStats(
       match_id: matchId,
       round_num: roundNum,
       status: "active",
+      mock_start: startTime,
     },
   ];
 
@@ -104,7 +107,9 @@ export function generateRoundStats(
     punch_landed: randomInt(20, 100),
     punch_thrown: randomInt(50, 200),
     punch_landed_high_impact: randomInt(5, 50),
-    punch_thrown_power: randomInt(20, 100),
+    punch_thrown_power: randomInt(20, 100), 
+    mock_start: startTime,
+    
   }));
 
   const balance: Balance[] = corners.map((corner) => {
@@ -119,6 +124,7 @@ export function generateRoundStats(
       back_foot: back_foot / 100,
       front_foot: front_foot / 100,
       neutral: neutral / 100,
+      mock_start: startTime,
     };
   });
 
@@ -136,6 +142,7 @@ export function generateRoundStats(
       inside: inside / 100,
       mid_range: mid_range / 100,
       outside: outside / 100,
+      mock_start: startTime,
     };
   });
 
@@ -151,6 +158,7 @@ export function generateRoundStats(
       orthodox: orthodox / 100,
       southpaw: southpaw / 100,
       squared: squared / 100,
+      mock_start: startTime,
     };
   });
 
@@ -167,6 +175,7 @@ export function generateRoundStats(
       doubles_num_punches: randomInt(30, 100),
       triples_num_punches: randomInt(15, 75),
       quads_more_num_punches: randomInt(0, 40),
+      mock_start: startTime,
     })
   );
 
@@ -181,6 +190,7 @@ export function generateRoundStats(
       landed_quality_dist: generateDistribution(),
       power_commit_dist: generateDistribution(),
       impact_dist: generateDistribution(),
+      mock_start: startTime,
     }))
   );
 
@@ -199,6 +209,7 @@ export function generateRoundStats(
             sequence.length
           ),
           punch_sequence_impact_props: generateQualityProps(sequence.length),
+          mock_start: startTime,
         };
       })
   );
@@ -215,3 +226,14 @@ export function generateRoundStats(
     punch_combinations,
   };
 }
+
+export function generateRoundStatsForMatch(matchId: string, startTime: number) {
+  const roundStats: RoundStats[] = []; 
+  let roundStartTime = startTime;
+  for (let i = 1; i <= 10; i++) {
+    roundStats.push(generateRoundStats(matchId, i, roundStartTime));
+    roundStartTime += (3 * 60 * 1000);
+  }
+  return roundStats;
+}
+
