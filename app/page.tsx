@@ -125,7 +125,7 @@ export default function Matches() {
     const apiCalls = [
       {
         description: "Create a match",
-        curl: `curl -X POST https://nakal-pied.vercel.app/api/matches -d '{ "eventDetails": "..." }'`,
+        curl: `curl -X POST https://nakal-pied.vercel.app/api/matches`,
       },
       {
         description: "Get all ongoing matches",
