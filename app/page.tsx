@@ -88,8 +88,93 @@ export default function Matches() {
             </svg>
           </div>
         </div>
+        <div className="flex items-center mt-2">
+          <span className="mr-2">Get Stats:</span>
+          <div
+            className="flex items-center cursor-pointer bg-gray-100 hover:bg-gray-200 rounded px-2 py-1"
+            onClick={() =>
+              copyToClipboard(
+                `curl https://nakal-pied.vercel.app/api/matches/${match.fight_info.fightId}/stats`
+              )
+            }
+          >
+            <code className="mr-2">
+              curl https://nakal-pied.vercel.app/api/matches/{match.fight_info.fightId}/stats
+            </code>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+              />
+            </svg>
+          </div>
+        </div>
       </div>
     ));
+  };
+
+  const renderApiInstructions = () => {
+    const apiCalls = [
+      {
+        description: "Create a match",
+        curl: `curl -X POST https://nakal-pied.vercel.app/api/matches -d '{ "eventDetails": "..." }'`,
+      },
+      {
+        description: "Get all ongoing matches",
+        curl: `curl https://nakal-pied.vercel.app/api/matches`,
+      },
+      {
+        description: "Get all upcoming matches",
+        curl: `curl https://nakal-pied.vercel.app/api/matches?category=upcoming`,
+      },
+      {
+        description: "Get all past matches",
+        curl: `curl https://nakal-pied.vercel.app/api/matches?category=past`,
+      },
+      {
+        description: "Get match stats by fight ID",
+        curl: `curl https://nakal-pied.vercel.app/api/matches/<fight_id>/stats`,
+      },
+    ];
+
+    return (
+      <div className="api-instructions mt-8 bg-gray-800 p-4 rounded-lg">
+        <h2 className="text-2xl font-bold mb-4 text-white">API Instructions</h2>
+        {apiCalls.map((apiCall, index) => (
+          <div key={index} className="mb-4">
+            <p className="font-semibold text-white">{apiCall.description}</p>
+            <div
+              className="flex items-center cursor-pointer bg-gray-700 hover:bg-gray-600 rounded px-2 py-1"
+              onClick={() => copyToClipboard(apiCall.curl)}
+            >
+              <code className="mr-2 text-white">{apiCall.curl}</code>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 text-gray-300"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                />
+              </svg>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
   };
 
   return (
@@ -135,6 +220,8 @@ export default function Matches() {
         {activeTab === "upcoming" && renderMatches(matches.upcoming)}
         {activeTab === "past" && renderMatches(matches.past)}
       </div>
+
+      {renderApiInstructions()}
     </div>
   );
 }
